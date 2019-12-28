@@ -1,30 +1,44 @@
 <script>
-	export let name;
+    import SerieView from './SerieView.svelte';
+    import PauseView from './PauseView.svelte';
+
+    let exercise = {
+        current_training: 0,
+        trainings: [
+            {
+                current_serie: 0,
+                series: [
+                    {
+                        type: 'serie',
+                        name: 'Penkkipunnerrus',
+                        repeats: 12,
+                        weight: 60,
+                    },
+                    {
+                        type: 'pause',
+                        rest: 120,
+                    }
+                ]
+            }
+        ]
+    }
+    let currentTrainingIndex = 0;
+    let currentSerieIndex = 0;
+    let currentSerie = exercise.trainings[currentTrainingIndex].series[currentSerieIndex];
+
+
+    function serieDone() {
+        currentSerieIndex += 1;
+        currentSerie = exercise.trainings[currentTrainingIndex].series[currentSerieIndex];
+    }
+
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
-
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
 </style>
+
+{#if currentSerie.type == 'serie'}
+<SerieView on:done={serieDone} serie={currentSerie}/>
+{:else}
+<PauseView />
+{/if}
