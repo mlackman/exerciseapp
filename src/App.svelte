@@ -1,12 +1,48 @@
 <script>
-	export let name;
+    let exercises = [
+        {
+            "name": "Penkkinpunnerrus käsipainoilla",
+            "repeats": "3 x 10 - 15",
+            "weight": "12kg",
+        },
+        {
+            "name": "Alatalja soutu",
+            "repeats": "3 x 15 - 20",
+            "weight": "35kg",
+        },
+        {
+            "name": "Jalkaprässi",
+            "repeats": "3 x 10 - 15",
+            "weight": "70kg",
+        },
+        {
+            "name": "Suorinjaloin maastaveto",
+            "repeats": "3 x 10 - 15",
+            "weight": "25kg",
+        },
+        {
+            "name": "Suorinjaloin maastaveto",
+            "repeats": "3 x 10 - 15",
+            "weight": "25kg",
+        },
+        {
+            "name": "Vipunostot sivulle",
+            "repeats": "2 x 10 - 15",
+            "weight": "6kg",
+        },
+        {
+            "name": "Hauis käsipainoilla",
+            "repeats": "2 x 10 - 15",
+            "weight": "8kg",
+        },
+        {
+            "name": "Ojentajat päänylu",
+            "repeats": "2 x 10 - 15",
+            "weight": "15kg",
+        },
+
+    ]
 </script>
-
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
-
 <style>
 	main {
 		text-align: center;
@@ -14,6 +50,10 @@
 		max-width: 240px;
 		margin: 0 auto;
 	}
+    ul {
+        line-height: 2em;
+        list-style: None;
+    }
 
 	h1 {
 		color: #ff3e00;
@@ -28,3 +68,18 @@
 		}
 	}
 </style>
+
+<main>
+	<h1>Treeni</h1>
+
+    <ul>
+        {#each exercises as exercise}
+
+        <li><span class="exercise-name">{exercise.name}</span> {exercise.repeats} <span>{exercise.weight}</span></li>
+
+        {/each}
+
+    </ul>
+</main>
+
+
