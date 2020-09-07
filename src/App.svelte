@@ -21,11 +21,6 @@
             "weight": "25kg",
         },
         {
-            "name": "Suorinjaloin maastaveto",
-            "repeats": "3 x 10 - 15",
-            "weight": "25kg",
-        },
-        {
             "name": "Vipunostot sivulle",
             "repeats": "2 x 10 - 15",
             "weight": "6kg",
@@ -36,7 +31,7 @@
             "weight": "8kg",
         },
         {
-            "name": "Ojentajat päänylu",
+            "name": "Ojentajat päänyli",
             "repeats": "2 x 10 - 15",
             "weight": "15kg",
         },
@@ -44,14 +39,12 @@
     ]
 </script>
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+	h1, main, ul {
+        margin: 0;
+        padding: 0;
 	}
     ul {
-        line-height: 2em;
+        line-height: 1em;
         list-style: None;
     }
 
@@ -61,6 +54,21 @@
 		font-size: 4em;
 		font-weight: 100;
 	}
+
+    p {
+        line-height: 1em;
+        font-size: 1.5em;
+    }
+
+    .exercise-name {
+        font-size: 2em;
+    }
+    .exercise-info {
+        margin-left: 3em;
+    }
+    .exercise-info span {
+        margin-left: 1em;
+    }
 
 	@media (min-width: 640px) {
 		main {
@@ -75,7 +83,10 @@
     <ul>
         {#each exercises as exercise}
 
-        <li><span class="exercise-name">{exercise.name}</span> {exercise.repeats} <span>{exercise.weight}</span></li>
+        <li>
+            <p class="exercise-name">{exercise.name}<p>
+            <p class="exercise-info">{exercise.repeats} <span>{exercise.weight}</span></p>
+        </li>
 
         {/each}
 
