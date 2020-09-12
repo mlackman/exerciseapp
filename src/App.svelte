@@ -1,6 +1,44 @@
 <script>
     let exercises = [
         {
+            "name": "Rinta crossover",
+            "repeats": "3 x 15 - 20",
+            "weight": "29kg",
+        },
+        {
+            "name": "Soutu käsipainoilla",
+            "repeats": "3 x 5 - 8",
+            "weight": "16kg",
+        },
+        {
+            "name": "Jalan suoristus",
+            "repeats": "3 x 15 - 20",
+            "weight": "35kg",
+        },
+        {
+            "name": "Jalan koukistus",
+            "repeats": "3 x 15 - 20",
+            "weight": "41kg",
+        },
+        {
+            "name": "Bent over laterall raise",
+            "repeats": "2 x 10 - 15",
+            "weight": "6kg",
+        },
+        {
+            "name": "Hauis tangolla",
+            "repeats": "2 x 10 - 15",
+            "weight": "23kg",
+        },
+        {
+            "name": "Ojentajat tanko",
+            "repeats": "2 x 10 - 15",
+            "weight": "23kg",
+        },
+    ]
+    /*
+    let exercises = [
+        {
             "name": "Penkkinpunnerrus käsipainoilla",
             "repeats": "3 x 10 - 15",
             "weight": "12kg",
@@ -8,7 +46,7 @@
         {
             "name": "Alatalja soutu",
             "repeats": "3 x 15 - 20",
-            "weight": "35kg",
+            "weight": "20kg",
         },
         {
             "name": "Jalkaprässi",
@@ -18,7 +56,7 @@
         {
             "name": "Suorinjaloin maastaveto",
             "repeats": "3 x 10 - 15",
-            "weight": "25kg",
+            "weight": "30kg",
         },
         {
             "name": "Vipunostot sivulle",
@@ -37,6 +75,7 @@
         },
 
     ]
+    */
 </script>
 <style>
 	h1, main, ul {
