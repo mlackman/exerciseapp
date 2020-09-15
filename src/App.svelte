@@ -1,24 +1,63 @@
 <script>
     let exercises = [
         {
+            "name": "Penkkipunnerrus",
+            "repeats": "3 x 5 - 8",
+            "weight": "50kg",
+        },
+        {
+            "name": "Ylätalja",
+            "repeats": "3 x 10 - 15",
+            "weight": "30kg",
+        },
+        {
+            "name": "Kyykky",
+            "repeats": "3 x 5 - 8",
+            "weight": "57,5kg",
+        },
+        {
+            "name": "Jalan koukistus",
+            "repeats": "3 x 10 - 15",
+            "weight": "30kg",
+        },
+        {
+            "name": "Käsipaino olkapääprässi",
+            "repeats": "2 x 5 - 8",
+            "weight": "12kg",
+        },
+        {
+            "name": "Käsipaino Hauis vinopenkki",
+            "repeats": "2 x 10 - 15",
+            "weight": "10kg",
+        },
+        {
+            "name": "Ojentaja talja",
+            "repeats": "2 x 10 - 15",
+            "weight": "25kg",
+        },
+    ]
+
+    /*
+    let exercises = [
+        {
             "name": "Rinta crossover",
             "repeats": "3 x 15 - 20",
-            "weight": "29kg",
+            "weight": "7.5kg",
         },
         {
             "name": "Soutu käsipainoilla",
             "repeats": "3 x 5 - 8",
-            "weight": "16kg",
+            "weight": "18kg",
         },
         {
             "name": "Jalan suoristus",
             "repeats": "3 x 15 - 20",
-            "weight": "35kg",
+            "weight": "30kg",
         },
         {
             "name": "Jalan koukistus",
             "repeats": "3 x 15 - 20",
-            "weight": "41kg",
+            "weight": "25kg",
         },
         {
             "name": "Bent over laterall raise",
@@ -28,14 +67,15 @@
         {
             "name": "Hauis tangolla",
             "repeats": "2 x 10 - 15",
-            "weight": "23kg",
+            "weight": "17.5kg",
         },
         {
             "name": "Ojentajat tanko",
             "repeats": "2 x 10 - 15",
-            "weight": "23kg",
+            "weight": "17.5kg",
         },
     ]
+    */
     /*
     let exercises = [
         {
