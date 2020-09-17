@@ -1,4 +1,5 @@
 <script>
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -36,47 +37,7 @@
             "weight": "25kg",
         },
     ]
-
-    /*
-    let exercises = [
-        {
-            "name": "Rinta crossover",
-            "repeats": "3 x 15 - 20",
-            "weight": "7.5kg",
-        },
-        {
-            "name": "Soutu käsipainoilla",
-            "repeats": "3 x 5 - 8",
-            "weight": "18kg",
-        },
-        {
-            "name": "Jalan suoristus",
-            "repeats": "3 x 15 - 20",
-            "weight": "30kg",
-        },
-        {
-            "name": "Jalan koukistus",
-            "repeats": "3 x 15 - 20",
-            "weight": "25kg",
-        },
-        {
-            "name": "Bent over laterall raise",
-            "repeats": "2 x 10 - 15",
-            "weight": "6kg",
-        },
-        {
-            "name": "Hauis tangolla",
-            "repeats": "2 x 10 - 15",
-            "weight": "17.5kg",
-        },
-        {
-            "name": "Ojentajat tanko",
-            "repeats": "2 x 10 - 15",
-            "weight": "17.5kg",
-        },
-    ]
     */
-    /*
     let exercises = [
         {
             "name": "Penkkinpunnerrus käsipainoilla",
@@ -115,8 +76,48 @@
         },
 
     ]
-    */
-</script>
+
+    /*
+
+    let exercises = [
+        {
+            "name": "Rinta crossover",
+            "repeats": "3 x 15 - 20",
+            "weight": "7.5kg",
+        },
+        {
+            "name": "Soutu käsipainoilla",
+            "repeats": "3 x 5 - 8",
+            "weight": "18kg",
+        },
+        {
+            "name": "Jalan suoristus",
+            "repeats": "3 x 15 - 20",
+            "weight": "30kg",
+        },
+        {
+            "name": "Jalan koukistus",
+            "repeats": "3 x 15 - 20",
+            "weight": "25kg",
+        },
+        {
+            "name": "Bent over laterall raise",
+            "repeats": "2 x 10 - 15",
+            "weight": "6kg",
+        },
+        {
+            "name": "Hauis tangolla",
+            "repeats": "2 x 10 - 15",
+            "weight": "17.5kg",
+        },
+        {
+            "name": "Ojentajat tanko",
+            "repeats": "2 x 10 - 15",
+            "weight": "17.5kg",
+        },
+    ]
+*/
+ </script>
 <style>
 	h1, main, ul {
         margin: 0;
