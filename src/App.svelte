@@ -38,26 +38,27 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "Penkkinpunnerrus käsipainoilla",
             "repeats": "3 x 10 - 15",
-            "weight": "12kg",
+            "weight": "16kg",
         },
         {
             "name": "Alatalja soutu",
             "repeats": "3 x 15 - 20",
-            "weight": "20kg",
+            "weight": "25kg",
         },
         {
             "name": "Jalkaprässi",
             "repeats": "3 x 10 - 15",
-            "weight": "70kg",
+            "weight": "75kg",
         },
         {
             "name": "Suorinjaloin maastaveto",
             "repeats": "3 x 10 - 15",
-            "weight": "30kg",
+            "weight": "40kg",
         },
         {
             "name": "Vipunostot sivulle",
@@ -72,12 +73,12 @@
         {
             "name": "Ojentajat päänyli",
             "repeats": "2 x 10 - 15",
-            "weight": "15kg",
+            "weight": "16kg",
         },
 
     ]
+    */
 
-    /*
 
     let exercises = [
         {
@@ -116,7 +117,7 @@
             "weight": "17.5kg",
         },
     ]
-*/
+
  </script>
 <style>
 	h1, main, ul {
