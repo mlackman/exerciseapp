@@ -1,5 +1,5 @@
 <script>
-    /*
+
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -24,7 +24,7 @@
         {
             "name": "Käsipaino olkapääprässi",
             "repeats": "2 x 5 - 8",
-            "weight": "12kg",
+            "weight": "14kg",
         },
         {
             "name": "Käsipaino Hauis vinopenkki",
@@ -37,7 +37,6 @@
             "weight": "25kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
@@ -78,7 +77,7 @@
 
     ]
     */
-
+    /*
 
     let exercises = [
         {
@@ -89,7 +88,7 @@
         {
             "name": "Soutu käsipainoilla",
             "repeats": "3 x 5 - 8",
-            "weight": "18kg",
+            "weight": "20kg",
         },
         {
             "name": "Jalan suoristus",
@@ -117,6 +116,7 @@
             "weight": "17.5kg",
         },
     ]
+    */
 
  </script>
 <style>
