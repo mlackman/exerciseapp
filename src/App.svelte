@@ -37,6 +37,7 @@
             "weight": "17.5kg",
         },
     ]*/
+    /*
     let exercises = [
         {
             "name": "Penkkinpunnerrus käsipainoilla",
@@ -75,7 +76,7 @@
         },
 
     ]
-    /*
+    */
 
     let exercises = [
         {
@@ -114,7 +115,6 @@
             "weight": "17.5kg",
         },
     ]
-    */
 
  </script>
 <style>
