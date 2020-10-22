@@ -36,9 +36,7 @@
             "repeats": "2 x 10 - 15",
             "weight": "20kg",
         },
-    ]
-    */
-    /*
+    ]*/
     let exercises = [
         {
             "name": "Penkkinpunnerrus käsipainoilla",
@@ -58,7 +56,7 @@
         {
             "name": "Suorinjaloin maastaveto",
             "repeats": "3 x 10 - 15",
-            "weight": "42,5kg",
+            "weight": "45kg",
         },
         {
             "name": "Vipunostot sivulle",
@@ -77,8 +75,8 @@
         },
 
     ]
-    */
 
+    /*
     let exercises = [
         {
             "name": "Rinta crossover",
@@ -93,12 +91,12 @@
         {
             "name": "Jalan suoristus",
             "repeats": "3 x 15 - 20",
-            "weight": "30kg",
+            "weight": "25kg",
         },
         {
             "name": "Jalan koukistus",
             "repeats": "3 x 15 - 20",
-            "weight": "25kg",
+            "weight": "30kg",
         },
         {
             "name": "Bent over laterall raise",
@@ -108,7 +106,7 @@
         {
             "name": "Hauis tangolla",
             "repeats": "2 x 10 - 15",
-            "weight": "17.5kg",
+            "weight": "20kg",
         },
         {
             "name": "Ojentajat tanko",
@@ -116,6 +114,7 @@
             "weight": "17.5kg",
         },
     ]
+    */
 
  </script>
 <style>
