@@ -1,4 +1,5 @@
 <script>
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -36,8 +37,8 @@
             "weight": "20kg",
         },
     ]
+   */
 
-       /*
     let exercises = [
         {
             "name": "Penkkinpunnerrus käsipainoilla",
@@ -76,7 +77,6 @@
         },
 
     ]
-    */
 
        /*
     let exercises = [
