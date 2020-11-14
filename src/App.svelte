@@ -39,6 +39,7 @@
     ]
    */
 
+    /*
     let exercises = [
         {
             "name": "Penkkinpunnerrus käsipainoilla",
@@ -53,7 +54,7 @@
         {
             "name": "Jalkaprässi",
             "repeats": "3 x 10 - 15",
-            "weight": "85kg",
+            "weight": "90kg",
         },
         {
             "name": "Suorinjaloin maastaveto",
@@ -76,8 +77,8 @@
             "weight": "14kg",
         },
     ]
+    */
 
-    /*
     let exercises = [
         {
             "name": "Rinta crossover",
@@ -115,7 +116,6 @@
             "weight": "17.5kg",
         },
     ]
-    */
 
  </script>
 <style>
