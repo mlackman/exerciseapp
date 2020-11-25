@@ -39,6 +39,7 @@
     ]
     */
 
+       /*
     let exercises = [
         {
             "name": "Penkkinpunnerrus käsipainoilla",
@@ -76,8 +77,8 @@
             "weight": "14kg",
         },
     ]
+    */
 
-     /*
     let exercises = [
         {
             "name": "Rinta crossover",
@@ -115,8 +116,6 @@
             "weight": "17.5kg",
         },
     ]
-   */
-
  </script>
 <style>
 	h1, main, ul {
