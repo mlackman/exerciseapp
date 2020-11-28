@@ -1,5 +1,4 @@
 <script>
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -37,7 +36,6 @@
             "weight": "17kg",
         },
     ]
-    */
 
        /*
     let exercises = [
@@ -79,6 +77,7 @@
     ]
     */
 
+    /*
     let exercises = [
         {
             "name": "Rinta crossover",
@@ -116,6 +115,7 @@
             "weight": "17.5kg",
         },
     ]
+   */
  </script>
 <style>
 	h1, main, ul {
