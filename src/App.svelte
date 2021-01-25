@@ -1,4 +1,5 @@
 <script>
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -18,17 +19,17 @@
         {
             "name": "Vipunostot rinta",
             "repeats": "2 x 10",
-            "weight": "10kg",
+            "weight": "12kg",
         },
         {
             "name": "Pullover käsipainolla",
             "repeats": "2 x 8",
-            "weight": "14kg",
+            "weight": "12kg",
         },
         {
             "name": "Ojentajat taljassa, painoa lisäten",
             "repeats": "10, 8 ,8 , 6",
-            "weight": "12.5kg",
+            "weight": "15.0kg",
         },
         {
             "name": "Ojentaja dippi",
@@ -41,6 +42,50 @@
             "weight": "keho",
         },
     ]
+    */
+    let exercises = [
+        {
+            "name": "leuanveto",
+            "repeats": "2x8",
+            "weight": "oma paino",
+        },
+        {
+            "name": "Kulmasoutu käsipaino",
+            "repeats": "3 x 8",
+            "weight": "24 kg",
+        },
+        {
+            "name": "soutu istuen",
+            "repeats": "2 x 8",
+            "weight": "40 kg",
+        },
+        {
+            "name": "kulmasoutu levytangolla",
+            "repeats": "2 x 8",
+            "weight": "40 kg",
+        },
+        {
+            "name": "Ylätalja",
+            "repeats": "10, 10, 8",
+            "weight": "42,5kg",
+        },
+        {
+            "name": "Hauiskääntö levytangolla",
+            "repeats": "8, 8, 6",
+            "weight": "20kg",
+        },
+        {
+            "name": "Hauis vinopenkki",
+            "repeats": "8, 8, 6",
+            "weight": "20kg",
+        },
+        {
+            "name": "Hauiskääntö käsipainolla",
+            "repeats": "2 x 10",
+            "weight": "10kg",
+        },
+    ]
+
 
     /*
     let exercises = [
