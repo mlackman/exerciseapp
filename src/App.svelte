@@ -43,6 +43,7 @@
         },
     ]
     */
+  /*
     let exercises = [
         {
             "name": "leuanveto",
@@ -83,6 +84,44 @@
             "name": "Hauiskääntö käsipainolla",
             "repeats": "2 x 10",
             "weight": "10kg",
+        },
+    ]
+    */
+    let exercises = [
+        {
+            "name": "pystypunnerrus smith",
+            "repeats": "3 x 10",
+            "weight": "5kg",
+        },
+        {
+            "name": "Käänteiset flyes käsipainoilla",
+            "repeats": "3 x 8 - 10",
+            "weight": "4 kg",
+        },
+        {
+            "name": "Military Press",
+            "repeats": "4 x 10",
+            "weight": "5 kg",
+        },
+        {
+            "name": "Vipunostot sivulle",
+            "repeats": "2 x 10",
+            "weight": "6 kg",
+        },
+        {
+            "name": "Kohautukset käsipainolla",
+            "repeats": "2 x 10",
+            "weight": "35 kg",
+        },
+        {
+            "name": "Pystysoutu tangolla alhaalta ylös",
+            "repeats": "2 x 10",
+            "weight": "10kg",
+        },
+        {
+            "name": "Rannekääntö levytangolla",
+            "repeats": "8 x 10",
+            "weight": "0",
         },
     ]
 
