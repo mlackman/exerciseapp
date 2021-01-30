@@ -87,11 +87,12 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "pystypunnerrus smith",
             "repeats": "3 x 10",
-            "weight": "5kg",
+            "weight": "10kg",
         },
         {
             "name": "Käänteiset flyes käsipainoilla",
@@ -101,7 +102,7 @@
         {
             "name": "Military Press",
             "repeats": "4 x 10",
-            "weight": "5 kg",
+            "weight": "0 kg",
         },
         {
             "name": "Vipunostot sivulle",
@@ -111,12 +112,12 @@
         {
             "name": "Kohautukset käsipainolla",
             "repeats": "2 x 10",
-            "weight": "35 kg",
+            "weight": "20 kg",
         },
         {
             "name": "Pystysoutu tangolla alhaalta ylös",
             "repeats": "2 x 10",
-            "weight": "10kg",
+            "weight": "2.5 kg",
         },
         {
             "name": "Rannekääntö levytangolla",
@@ -124,7 +125,35 @@
             "weight": "0",
         },
     ]
+    */
 
+    let exercises = [
+        {
+            "name": "Kyykku",
+            "repeats": "10, 8, 8 ,6 , 4",
+            "weight": "55,0kg",
+        },
+        {
+            "name": "Reiden ojennus",
+            "repeats": "3 x 12",
+            "weight": "35kg",
+        },
+        {
+            "name": "Reiden koukistus",
+            "repeats": "3 x 12",
+            "weight": "37,5kg",
+        },
+        {
+            "name": "Pohjenousu seisten",
+            "repeats": "4 x 12",
+            "weight": "50kg",
+        },
+        {
+            "name": "Pohjenousu istuen",
+            "repeats": "2 x 12",
+            "weight": "40kg",
+        },
+    ]
 
     /*
     let exercises = [
