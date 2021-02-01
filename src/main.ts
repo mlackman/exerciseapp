@@ -43,13 +43,9 @@ const program = {
   ]
 }
 
-/**
- * TODO: rename something like AppController
- * views: {},
- * activateInitialView etc...
- */
-const application = {
-  views: {
+
+class WorkoutApplication {
+  public views = {
     /**
      * Shows exercises and can select set
      */
@@ -81,17 +77,22 @@ const application = {
         return new SetViewModel('SetView', set);
       }
     },
-  },
-  activateInitialView: (activateView) => {
+  }
+
+  constructor() {
+  }
+
+  public activateInitialView(activateView) {
     activateView('workoutsView', program.workouts);
     //activateView('setView', program.workouts[0].exercises[0].sets[0]);
   }
 }
 
+
 const app = new App({
 	target: document.body,
 	props: {
-    app: application
+    app: new WorkoutApplication(),
 	}
 });
 
