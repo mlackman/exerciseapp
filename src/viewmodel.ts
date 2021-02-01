@@ -25,4 +25,8 @@ export class SetViewModel extends ViewModel {
     public readonly name: string,
     public readonly set,
   ) { super(name); };
+
+  public setFinished() {
+    console.log('set was finished');
+  }
 }

@@ -48,47 +48,50 @@ const program = {
  * views: {},
  * activateInitialView etc...
  */
-const views = {
-  /**
-   * Shows exercises and can select set
-   */
-  exercisesView: {
-    viewComponent: CommandListView,
-    createViewModel: (exercises, activateView) => {
-      const cmds = exercises.map((exercise) => new Command(exercise.name, () => activateView('setView', exercise.sets[0])));
-      return new CommandListViewModel('ExercisesView', cmds);
-    }
-  },
+const application = {
+  views: {
+    /**
+     * Shows exercises and can select set
+     */
+    exercisesView: {
+      viewComponent: CommandListView,
+      createViewModel: (exercises, activateView) => {
+        const cmds = exercises.map((exercise) => new Command(exercise.name, () => activateView('setView', exercise.sets[0])));
+        return new CommandListViewModel('ExercisesView', cmds);
+      }
+    },
 
-  /**
-   * Shows workouts and can select exercise
-   */
-  workoutsView: {
-    viewComponent: CommandListView,
-    createViewModel: (workouts, activateView) => {
-      const cmds = workouts.map((workout) => new Command(workout.name, () => activateView('exercisesView', workout.exercises)));
-      return new CommandListViewModel('WorkoutsView', cmds);
-    }
-  },
+    /**
+     * Shows workouts and can select exercise
+     */
+    workoutsView: {
+      viewComponent: CommandListView,
+      createViewModel: (workouts, activateView) => {
+        const cmds = workouts.map((workout) => new Command(workout.name, () => activateView('exercisesView', workout.exercises)));
+        return new CommandListViewModel('WorkoutsView', cmds);
+      }
+    },
 
-  /**
-   * Shows set from exercise
-   */
-  setView: {
-    viewComponent: SetView,
-    createViewModel: (set, activateView) => {
-      return new SetViewModel('SetView', set);
-    }
+    /**
+     * Shows set from exercise
+     */
+    setView: {
+      viewComponent: SetView,
+      createViewModel: (set, activateView) => {
+        return new SetViewModel('SetView', set);
+      }
+    },
   },
   activateInitialView: (activateView) => {
     activateView('workoutsView', program.workouts);
+    //activateView('setView', program.workouts[0].exercises[0].sets[0]);
   }
 }
 
 const app = new App({
 	target: document.body,
 	props: {
-    views: views
+    app: application
 	}
 });
 

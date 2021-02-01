@@ -1,12 +1,12 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  export let views;
+  export let app;
 
   let currentView;
   let currentViewModel;
 
   function activateView(viewName: string, data, addToHistory: boolean = true) {
-    const view = views[viewName];
+    const view = app.views[viewName];
     if (!view) { throw new Error(`No such view registered: ${viewName}`); }
     currentView = view.viewComponent;
     currentViewModel = view.createViewModel(data, activateView);
@@ -24,8 +24,7 @@
   });
 
   onMount(() => {
-    console.log(views);
-    views.activateInitialView(activateView);
+    app.activateInitialView(activateView);
   });
 
 </script>
