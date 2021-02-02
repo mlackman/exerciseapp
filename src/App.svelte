@@ -51,12 +51,12 @@
         {
             "name": "Kulmasoutu käsipaino",
             "repeats": "3 x 8",
-            "weight": "24 kg",
+            "weight": "22 kg",
         },
         {
             "name": "soutu istuen",
             "repeats": "2 x 8",
-            "weight": "40 kg",
+            "weight": "20 kg",
         },
         {
             "name": "kulmasoutu levytangolla",
@@ -79,7 +79,7 @@
             "weight": "20kg",
         },
         {
-            "name": "Hauiskääntö käsipainolla",
+            "name": "Hauiskääntö käsipainolla istuen",
             "repeats": "2 x 10",
             "weight": "10kg",
         },
