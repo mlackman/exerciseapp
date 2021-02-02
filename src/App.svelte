@@ -1,39 +1,49 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   export let app;
+  let ui;
+
+  interface View {
+    name: string;
+    viewComponent: any;
+    viewModel: any;
+  }
 
   let application;
   let currentView;
   let currentViewModel;
 
   class UI {
+    private views: Record<string, View> = {};
 
-    public showView(viewComponent, viewModel) {
-      currentView = viewComponent;
-      currentViewModel = viewModel;
+    public showView(viewName: string, viewComponent, viewModel, addToHistory: boolean = true) {
+      const view = { name: viewName, viewComponent, viewModel };
+      this.views[viewName] = view;
+      this.activateView(viewName);
+      if (addToHistory) {
+        window.history.pushState({ viewName }, '', '');
+      }
     }
 
-    public activateView(viewName: string, data, addToHistory: boolean = true) {
-      const view = application.views[viewName];
-      if (!view) { throw new Error(`No such view registered: ${viewName}`); }
-      currentView = view.viewComponent;
-      currentViewModel = view.createViewModel(data);
-
-      if (addToHistory) {
-        window.history.pushState({ viewName, data }, '', '');
+    public activateView(viewName: string) {
+      const view = this.views[viewName];
+      if (!view) {
+        throw new Error(`No such view ${viewName}`);
       }
+      currentView = view.viewComponent;
+      currentViewModel = view.viewModel;
     }
   }
 
   window.addEventListener('popstate', (event) => {
-    const { viewName, data } = event.state;
+    const { viewName } = event.state;
     if (viewName) {
-      activateView(viewName, data, false);
+      ui.activateView(viewName);
     }
   });
 
   onMount(() => {
-    const ui = new UI()
+    ui = new UI()
     application = new app(ui);
     application.initComplete();
   });

@@ -57,12 +57,12 @@ class WorkoutApplication {
 
   private showWorkoutsView() {
     const cmds = program.workouts.map((workout) => new Command(workout.name, () => this.showExerciseView(workout.exercises)));
-    this.ui.showView(CommandListView, new CommandListViewModel('WorkoutsView', cmds));
+    this.ui.showView('workoutView', CommandListView, new CommandListViewModel('WorkoutsView', cmds));
   }
 
   private showExerciseView(exercises) {
     const cmds = exercises.map((exercise) => new Command(exercise.name, () => this.showSetView(exercise.sets)));
-    this.ui.showView(CommandListView, new CommandListViewModel('ExercisesView', cmds));
+    this.ui.showView('exerciseView', CommandListView, new CommandListViewModel('ExercisesView', cmds));
   }
 
   private showSetView(sets) {
