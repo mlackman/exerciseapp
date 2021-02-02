@@ -45,54 +45,36 @@ const program = {
 
 
 class WorkoutApplication {
-  public views = {
-    /**
-     * Shows exercises and can select set
-     */
-    exercisesView: {
-      viewComponent: CommandListView,
-      createViewModel: (exercises, activateView) => {
-        const cmds = exercises.map((exercise) => new Command(exercise.name, () => activateView('setView', exercise.sets[0])));
-        return new CommandListViewModel('ExercisesView', cmds);
-      }
-    },
+  private ui;
 
-    /**
-     * Shows workouts and can select exercise
-     */
-    workoutsView: {
-      viewComponent: CommandListView,
-      createViewModel: (workouts, activateView) => {
-        const cmds = workouts.map((workout) => new Command(workout.name, () => activateView('exercisesView', workout.exercises)));
-        return new CommandListViewModel('WorkoutsView', cmds);
-      }
-    },
-
-    /**
-     * Shows set from exercise
-     */
-    setView: {
-      viewComponent: SetView,
-      createViewModel: (set, activateView) => {
-        return new SetViewModel('SetView', set);
-      }
-    },
+  constructor(ui) {
+    this.ui = ui;
   }
 
-  constructor() {
+  public initComplete() {
+    this.showWorkoutsView();
   }
 
-  public activateInitialView(activateView) {
-    activateView('workoutsView', program.workouts);
-    //activateView('setView', program.workouts[0].exercises[0].sets[0]);
+  private showWorkoutsView() {
+    const cmds = program.workouts.map((workout) => new Command(workout.name, () => this.showExerciseView(workout.exercises)));
+    this.ui.showView(CommandListView, new CommandListViewModel('WorkoutsView', cmds));
   }
+
+  private showExerciseView(exercises) {
+    const cmds = exercises.map((exercise) => new Command(exercise.name, () => this.showSetView(exercise.sets)));
+    this.ui.showView(CommandListView, new CommandListViewModel('ExercisesView', cmds));
+  }
+
+  private showSetView(sets) {
+  }
+
 }
 
 
 const app = new App({
 	target: document.body,
 	props: {
-    app: new WorkoutApplication(),
+    app: WorkoutApplication,
 	}
 });
 

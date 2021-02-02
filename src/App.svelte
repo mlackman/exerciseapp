@@ -2,17 +2,26 @@
   import { onMount } from 'svelte';
   export let app;
 
+  let application;
   let currentView;
   let currentViewModel;
 
-  function activateView(viewName: string, data, addToHistory: boolean = true) {
-    const view = app.views[viewName];
-    if (!view) { throw new Error(`No such view registered: ${viewName}`); }
-    currentView = view.viewComponent;
-    currentViewModel = view.createViewModel(data, activateView);
+  class UI {
 
-    if (addToHistory) {
-      window.history.pushState({ viewName, data }, '', '');
+    public showView(viewComponent, viewModel) {
+      currentView = viewComponent;
+      currentViewModel = viewModel;
+    }
+
+    public activateView(viewName: string, data, addToHistory: boolean = true) {
+      const view = application.views[viewName];
+      if (!view) { throw new Error(`No such view registered: ${viewName}`); }
+      currentView = view.viewComponent;
+      currentViewModel = view.createViewModel(data);
+
+      if (addToHistory) {
+        window.history.pushState({ viewName, data }, '', '');
+      }
     }
   }
 
@@ -24,7 +33,9 @@
   });
 
   onMount(() => {
-    app.activateInitialView(activateView);
+    const ui = new UI()
+    application = new app(ui);
+    application.initComplete();
   });
 
 </script>
