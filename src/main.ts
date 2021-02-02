@@ -36,6 +36,11 @@ const program = {
               repeats: 8,
               weight: 0,
             },
+            {
+              name: "Tauko",
+              repeats: 8,
+              weight: 0,
+            },
           ],
         },
       ]
@@ -55,17 +60,34 @@ class WorkoutApplication {
     this.showWorkoutsView();
   }
 
+  private workoutSelected(workout) {
+    this.showExerciseView(workout.exercises);
+  }
+
+  private exerciseSelected(exercise) {
+    console.log(`Exercise selected: ${exercise.name}`);
+    this.showSetView(exercise.sets);
+  }
+
   private showWorkoutsView() {
-    const cmds = program.workouts.map((workout) => new Command(workout.name, () => this.showExerciseView(workout.exercises)));
+    const cmds = program.workouts.map((workout) => new Command(workout.name, () => this.workoutSelected(workout)));
     this.ui.showView('workoutView', CommandListView, new CommandListViewModel('WorkoutsView', cmds));
   }
 
   private showExerciseView(exercises) {
-    const cmds = exercises.map((exercise) => new Command(exercise.name, () => this.showSetView(exercise.sets)));
+    const cmds = exercises.map((exercise) => new Command(exercise.name, () => this.exerciseSelected(exercise)));
     this.ui.showView('exerciseView', CommandListView, new CommandListViewModel('ExercisesView', cmds));
   }
 
   private showSetView(sets) {
+    let setIndex = 0;
+    let self = this;
+    function setFinished(set) {
+      console.log(`Set finished: ${set.name}`);
+      setIndex += 1;
+      self.ui.showView('setView', SetView, new SetViewModel('SetView', sets[setIndex], setFinished), false);
+    }
+    this.ui.showView('setView', SetView, new SetViewModel('SetView', sets[setIndex], setFinished), true);
   }
 
 }

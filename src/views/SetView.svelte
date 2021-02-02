@@ -19,6 +19,6 @@
   <p>toistot: { view.set.repeats }</p>
   <p>paino: { view.set.weight } kg</p>
 
-  <Button on:click={ () => view.setFinished() } value='Valmis' />
+  <Button on:click={ () => view.setFinished({ ...view.set } ) } value='Valmis' />
 
 </main>

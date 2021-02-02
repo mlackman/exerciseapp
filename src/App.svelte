@@ -21,11 +21,14 @@
       this.views[viewName] = view;
       this.activateView(viewName);
       if (addToHistory) {
-        window.history.pushState({ viewName }, '', '');
+        const state = { viewName };
+        console.log('Adding state to history: ', state);
+        window.history.pushState(state, '', '');
       }
     }
 
     public activateView(viewName: string) {
+      console.log(`Activating view: ${viewName}`);
       const view = this.views[viewName];
       if (!view) {
         throw new Error(`No such view ${viewName}`);
@@ -36,6 +39,7 @@
   }
 
   window.addEventListener('popstate', (event) => {
+    console.log('Back pressed: ', event.state);
     const { viewName } = event.state;
     if (viewName) {
       ui.activateView(viewName);
