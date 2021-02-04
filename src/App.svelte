@@ -90,17 +90,17 @@
         {
             "name": "pystypunnerrus smith istuen",
             "repeats": "3 x 10",
-            "weight": "10kg",
+            "weight": "15 kg",
         },
         {
             "name": "Käänteiset flyes käsipainoilla",
             "repeats": "3 x 8 - 10",
-            "weight": "4 kg",
+            "weight": "5 kg",
         },
         {
             "name": "Military Press",
             "repeats": "4 x 10",
-            "weight": "0 kg",
+            "weight": "2,5 kg",
         },
         {
             "name": "Vipunostot sivulle",
@@ -115,7 +115,7 @@
         {
             "name": "Pystysoutu tangolla alhaalta ylös",
             "repeats": "2 x 10",
-            "weight": "2.5 kg",
+            "weight": "5 kg",
         },
         {
             "name": "Rannekääntö levytangolla",
