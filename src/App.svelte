@@ -42,6 +42,7 @@
             "weight": "keho",
         },
     ]*/
+    /*
     let exercises = [
         {
             "name": "leuanveto",
@@ -56,12 +57,12 @@
         {
             "name": "soutu istuen",
             "repeats": "2 x 8",
-            "weight": "20 kg",
+            "weight": "22,5 kg",
         },
         {
             "name": "kulmasoutu levytangolla",
             "repeats": "2 x 8",
-            "weight": "40 kg",
+            "weight": "42,5 kg",
         },
         {
             "name": "Ylätalja",
@@ -81,13 +82,13 @@
         {
             "name": "Hauiskääntö käsipainolla istuen",
             "repeats": "2 x 10",
-            "weight": "10kg",
+            "weight": "8kg",
         },
     ]
-    /*
+    */
     let exercises = [
         {
-            "name": "pystypunnerrus smith",
+            "name": "pystypunnerrus smith istuen",
             "repeats": "3 x 10",
             "weight": "10kg",
         },
@@ -109,7 +110,7 @@
         {
             "name": "Kohautukset käsipainolla",
             "repeats": "2 x 10",
-            "weight": "20 kg",
+            "weight": "18 kg",
         },
         {
             "name": "Pystysoutu tangolla alhaalta ylös",
@@ -122,7 +123,6 @@
             "weight": "0",
         },
     ]
-    */
 
     /*
     let exercises = [
