@@ -7,19 +7,22 @@
     name: string;
     viewComponent: any;
     viewModel: any;
+    viewController: any;
   }
 
   let application;
   let currentView;
   let currentViewModel;
+  let currentViewController;
 
   class UI {
     private views: Record<string, View> = {};
 
-    public showView(viewName: string, viewComponent, viewModel, addToHistory: boolean = true) {
-      const view = { name: viewName, viewComponent, viewModel };
+    public showView(viewName: string, viewComponent, viewModel, viewController, addToHistory: boolean = true) {
+      const view = { name: viewName, viewComponent, viewModel, viewController };
       this.views[viewName] = view;
       this.activateView(viewName);
+
       if (addToHistory) {
         const state = { viewName };
         console.log('Adding state to history: ', state);
@@ -27,7 +30,7 @@
       }
     }
 
-    public activateView(viewName: string) {
+    private activateView(viewName: string) {
       console.log(`Activating view: ${viewName}`);
       const view = this.views[viewName];
       if (!view) {
@@ -35,6 +38,7 @@
       }
       currentView = view.viewComponent;
       currentViewModel = view.viewModel;
+      currentViewController = view.viewController;
     }
   }
 
@@ -58,6 +62,6 @@
 </style>
 
 
-<svelte:component this={ currentView } view={ currentViewModel } />
+<svelte:component this={ currentView } model={ currentViewModel } controller={ currentViewController } />
 
 

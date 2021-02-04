@@ -1,7 +1,8 @@
 <script lang="ts">
   import Button from '../components/Button.svelte';
   import { CommandListViewModel } from '../viewmodel';
-  export let view: CommandListViewModel;
+  export let model: CommandListViewModel;
+  export let controller;
 
 </script>
 
@@ -27,9 +28,9 @@
 <main>
 	<h1>Treeni</h1>
   <ul>
-      {#each view.commands as command}
+      {#each model.commands as command}
       <li>
-        <Button on:click={ () => command.execute() } value='{command.title}'/>
+        <Button on:click={ () => command.execute() } value='{command.title}' />
       </li>
       {/each}
   </ul>

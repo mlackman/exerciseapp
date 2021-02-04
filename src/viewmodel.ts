@@ -24,11 +24,5 @@ export class SetViewModel extends ViewModel {
   constructor(
     public readonly name: string,
     public readonly set,
-    private setFinishedCallback,
   ) { super(name); };
-
-  public setFinished(set) {
-    console.log('set was finished');
-    this.setFinishedCallback(set);
-  }
 }

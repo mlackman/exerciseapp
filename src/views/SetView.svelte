@@ -1,6 +1,7 @@
 <script lang="ts">
   import Button from '../components/Button.svelte';
-  export let view;
+  export let model;
+  export let controller;
 </script>
 
 <style>
@@ -14,11 +15,11 @@
 </style>
 
 <main>
-  <h1>{ view.set.name }</h1>
+  <h1>{ model.set.name }</h1>
 
-  <p>toistot: { view.set.repeats }</p>
-  <p>paino: { view.set.weight } kg</p>
+  <p>toistot: { model.set.repeats }</p>
+  <p>paino: { model.set.weight } kg</p>
 
-  <Button on:click={ () => view.setFinished({ ...view.set } ) } value='Valmis' />
+  <Button on:click={ () => controller.setFinished() } value='Valmis' />
 
 </main>
