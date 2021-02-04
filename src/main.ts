@@ -51,6 +51,7 @@ const program = {
 
 class WorkoutApplication {
   private ui;
+  private currentlySelectedWorkout;
 
   constructor(ui) {
     this.ui = ui;
@@ -61,6 +62,7 @@ class WorkoutApplication {
   }
 
   private workoutSelected(workout) {
+    this.currentlySelectedWorkout = workout;
     this.showExerciseView(workout.exercises);
   }
 
@@ -85,7 +87,11 @@ class WorkoutApplication {
     function setFinished(set) {
       console.log(`Set finished: ${set.name}`);
       setIndex += 1;
-      self.ui.showView('setView', SetView, new SetViewModel('SetView', sets[setIndex], setFinished), false);
+      if (sets.length >= setIndex) {
+        self.showExerciseView(self.currentlySelectedWorkout.exercises);
+      } else {
+        self.ui.showView('setView', SetView, new SetViewModel('SetView', sets[setIndex], setFinished), false);
+      }
     }
     this.ui.showView('setView', SetView, new SetViewModel('SetView', sets[setIndex], setFinished), true);
   }
