@@ -2,8 +2,8 @@
     let exercises = [
         {
             "name": "Penkkipunnerrus",
-            "repeats": "10, 8, 8 ,6",
-            "weight": "47,5kg",
+            "repeats": "10, 8, 8, 6",
+            "weight": "50,0kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
@@ -23,7 +23,7 @@
         {
             "name": "Pullover käsipainolla",
             "repeats": "2 x 8",
-            "weight": "12kg",
+            "weight": "14kg",
         },
         {
             "name": "Ojentajat taljassa, painoa lisäten",
