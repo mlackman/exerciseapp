@@ -48,18 +48,66 @@ const program = {
   ]
 }
 
+/**
+ * View
+ */
+class ViewController {
+  protected ui;
+  protected viewComponent;
+  protected viewModel;
+
+  public activate() {
+    this.aboutToActivate();
+    this.ui.showView('workoutView', this.viewComponent, this.viewModel, this);
+  }
+
+  protected aboutToActivate() {
+  }
+}
+
+
+/**
+ * Shows workouts and user selects one workout,
+ * which user will go through
+ */
+class WorkoutsView extends ViewController {
+  private program;
+
+  constructor(program, ui) {
+    super();
+    this.ui = ui;
+    this.program = program;
+    this.viewComponent = CommandListView;
+  }
+
+  protected aboutToActivate() {
+    const cmds = this.program.workouts.map((workout) => new Command(workout.name, () => this.workoutSelected(workout)));
+    this.viewModel = new CommandListViewModel('WorkoutsView', cmds)
+  }
+
+  private workoutSelected(workout) {
+    console.log('Workout selected: ', workout);
+  }
+}
+
+class ExerciseView extends ViewController {
+}
+
 class WorkoutApplication {
   private ui;
   private currentlySelectedWorkout;
   private currentlyExecutingSets;
   private currentlyExecutingSetIndex;
+  private workoutsView;
 
   constructor(ui) {
     this.ui = ui;
+    this.workoutsView = new WorkoutsView(program, ui);
+    //this.workoutsView.onWorkoutSelected(()
   }
 
   public initComplete() {
-    this.showWorkoutsView();
+    this.workoutsView.activate();
   }
 
   private workoutSelected(workout) {
@@ -72,11 +120,6 @@ class WorkoutApplication {
     this.currentlyExecutingSets = exercise.sets;
     this.currentlyExecutingSetIndex = 0;
     this.showSetView();
-  }
-
-  private showWorkoutsView() {
-    const cmds = program.workouts.map((workout) => new Command(workout.name, () => this.workoutSelected(workout)));
-    this.ui.showView('workoutView', CommandListView, new CommandListViewModel('WorkoutsView', cmds), this);
   }
 
   private showExerciseView(exercises) {
