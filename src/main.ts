@@ -52,9 +52,10 @@ const program = {
  * View
  */
 class ViewController {
-  protected ui;
   protected viewComponent;
   protected viewModel;
+
+  constructor(protected ui) {}
 
   public activate() {
     this.aboutToActivate();
@@ -72,25 +73,41 @@ class ViewController {
  */
 class WorkoutsView extends ViewController {
   private program;
+  private onWorkoutSelectedCallback: (workout)=> void = () => {};
 
   constructor(program, ui) {
-    super();
-    this.ui = ui;
+    super(ui);
     this.program = program;
     this.viewComponent = CommandListView;
   }
 
-  protected aboutToActivate() {
-    const cmds = this.program.workouts.map((workout) => new Command(workout.name, () => this.workoutSelected(workout)));
-    this.viewModel = new CommandListViewModel('WorkoutsView', cmds)
+  public onWorkoutSelected(fn: (workout)=>void) {
+    this.onWorkoutSelectedCallback = fn;
   }
 
-  private workoutSelected(workout) {
-    console.log('Workout selected: ', workout);
+  protected aboutToActivate() {
+    const cmds = this.program.workouts.map((workout) => new Command(workout.name, () => this.onWorkoutSelectedCallback(workout)));
+    this.viewModel = new CommandListViewModel('WorkoutsView', cmds)
   }
 }
 
 class ExerciseView extends ViewController {
+  protected viewComponent = CommandListView;
+  private exercises;
+  private onExerciseSelectedCallback: (exercise)=>void = () => {};
+
+  public setExercises(exercises) {
+    this.exercises = exercises;
+  }
+
+  public onExerciseSelected(fn: (exercise)=>void) {
+    this.onExerciseSelectedCallback = fn;
+  }
+
+  protected aboutToActivate() {
+    const cmds = this.exercises.map((exercise) => new Command(exercise.name, () => this.onExerciseSelectedCallback));
+    this.viewModel = new CommandListViewModel('ExercisesView', cmds);
+  }
 }
 
 class WorkoutApplication {
@@ -99,11 +116,19 @@ class WorkoutApplication {
   private currentlyExecutingSets;
   private currentlyExecutingSetIndex;
   private workoutsView;
+  private exerciseView;
 
   constructor(ui) {
     this.ui = ui;
     this.workoutsView = new WorkoutsView(program, ui);
-    //this.workoutsView.onWorkoutSelected(()
+    this.exerciseView = new ExerciseView(ui);
+
+    this.workoutsView.onWorkoutSelected((workout) => {
+      console.log('Workout selected:', workout);
+
+      this.exerciseView.setExercises(workout.exercises);
+      this.exerciseView.activate();
+    });
   }
 
   public initComplete() {
