@@ -7,13 +7,13 @@ export class Command {
   constructor(title: string, onExecute?, enabled?: boolean) {
     if (!title) { throw new Error('Action title must be defined') }
     this.title = title;
-    this.enabled = enabled || this.enabled;
+    this.enabled = enabled ?? true;
     this.onExecute = onExecute;
   }
 
   public execute() {
-    console.log(`Command '${this.title}' executed!`);
-    if (this.onExecute) {
+    if (this.onExecute && this.enabled) {
+      console.log(`Command '${this.title}' executed!`);
       this.onExecute();
     }
   }

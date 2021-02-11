@@ -1,5 +1,7 @@
 <script>
-    export let value="defalt title";
+  export let value="defalt title";
+  export let disabled=false;
+  console.log('disabled', disabled);
 </script>
 
 <style>
@@ -15,6 +17,9 @@
         border: 1px solid #717171;
         border-radius: 0.45em;
     }
+    a.disabled {
+      text-decoration: line-through;
+    }
 </style>
 
-<a on:click>{value}</a>
+<a class:disabled="{disabled}" on:click>{value}</a>

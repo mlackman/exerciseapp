@@ -13,6 +13,7 @@ const program = {
         {
           id: 1,
           name: "Penkkipunnerrus",
+          done: false,
           sets: [
             {
               name: "Penkkipunnerrus",
@@ -30,6 +31,7 @@ const program = {
         {
           id: 2,
           name: "Leuanveto",
+          done: false,
           sets: [
             {
               name: "Leuanveto",
@@ -105,7 +107,7 @@ class ExercisesViewController extends ViewController {
   }
 
   protected aboutToActivate() {
-    const cmds = this.exercises.map((exercise) => new Command(exercise.name, () => this.onExerciseSelectedCallback(exercise)));
+    const cmds = this.exercises.map((exercise) => new Command(exercise.name, () => this.onExerciseSelectedCallback(exercise), !exercise.done));
     this.viewModel = new CommandListViewModel('ExercisesView', cmds);
   }
 }
@@ -114,6 +116,7 @@ class ExerciseViewController extends ViewController {
   protected viewComponent = SetView;
   private exercise;
   private setIndex = 0;
+  public onSetFinished: (exercise) => void = ()=>{};
 
   public setExercise(exercise) {
     this.exercise = exercise;
@@ -126,8 +129,16 @@ class ExerciseViewController extends ViewController {
   public setFinished() {
     // TODO: Not sure if this is good idea
     console.log('set finished');
-    this.setIndex = 1;
-    this.activate();
+    this.setIndex++;
+    if (this.isSetFinished()) {
+      this.onSetFinished(this.exercise);
+    } else {
+      this.activate();
+    }
+  }
+
+  private isSetFinished(): boolean {
+    return this.exercise.sets.length <= this.setIndex;
   }
 };
 
@@ -157,6 +168,13 @@ class WorkoutApplication {
       this.exerciseViewController.setExercise(exercise);
       this.exerciseViewController.activate();
     });
+
+    const self = this;
+    this.exerciseViewController.onSetFinished = (exercise) => {
+      console.log('Set finished from exercise', exercise);
+      exercise.done = true;
+      self.exercisesViewController.activate();
+    };
   }
 
   public initComplete() {

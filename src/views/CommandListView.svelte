@@ -3,7 +3,6 @@
   import { CommandListViewModel } from '../viewmodel';
   export let model: CommandListViewModel;
   export let controller;
-
 </script>
 
 <style>
@@ -30,7 +29,7 @@
   <ul>
       {#each model.commands as command}
       <li>
-        <Button on:click={ () => command.execute() } value='{command.title}' />
+        <Button disabled={ !command.enabled } on:click={ () => command.execute() } value='{command.title}' />
       </li>
       {/each}
   </ul>
