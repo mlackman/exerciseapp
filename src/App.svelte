@@ -87,6 +87,7 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "pystypunnerrus smith istuen",
@@ -124,13 +125,13 @@
             "weight": "0",
         },
     ]
+    */
 
-    /*
     let exercises = [
         {
             "name": "Kyykky",
             "repeats": "10, 8, 8 ,6 , 4",
-            "weight": "57,5kg",
+            "weight": "60kg",
         },
         {
             "name": "Reiden ojennus",
@@ -153,7 +154,6 @@
             "weight": "25kg",
         },
     ]
-  */
 
     /*
     let exercises = [
