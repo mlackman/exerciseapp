@@ -2,6 +2,7 @@
   import Button from '../components/Button.svelte';
   export let model;
   export let controller;
+
 </script>
 
 <style>

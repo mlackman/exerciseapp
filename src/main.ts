@@ -38,7 +38,7 @@ const program = {
             },
             {
               name: "Tauko",
-              repeats: 8,
+              repeats: 2,
               weight: 0,
             },
           ],
@@ -71,7 +71,7 @@ class ViewController {
  * Shows workouts and user selects one workout,
  * which user will go through
  */
-class WorkoutsView extends ViewController {
+class WorkoutsViewController extends ViewController {
   private program;
   private onWorkoutSelectedCallback: (workout)=> void = () => {};
 
@@ -91,7 +91,7 @@ class WorkoutsView extends ViewController {
   }
 }
 
-class ExerciseView extends ViewController {
+class ExercisesViewController extends ViewController {
   protected viewComponent = CommandListView;
   private exercises;
   private onExerciseSelectedCallback: (exercise)=>void = () => {};
@@ -105,65 +105,62 @@ class ExerciseView extends ViewController {
   }
 
   protected aboutToActivate() {
-    const cmds = this.exercises.map((exercise) => new Command(exercise.name, () => this.onExerciseSelectedCallback));
+    const cmds = this.exercises.map((exercise) => new Command(exercise.name, () => this.onExerciseSelectedCallback(exercise)));
     this.viewModel = new CommandListViewModel('ExercisesView', cmds);
   }
 }
+
+class ExerciseViewController extends ViewController {
+  protected viewComponent = SetView;
+  private exercise;
+  private setIndex = 0;
+
+  public setExercise(exercise) {
+    this.exercise = exercise;
+  }
+
+  protected aboutToActivate() {
+    this.viewModel = new SetViewModel(this.exercise.sets[this.setIndex].name, this.exercise.sets[this.setIndex]);
+  }
+
+  public setFinished() {
+    // TODO: Not sure if this is good idea
+    console.log('set finished');
+    this.setIndex = 1;
+    this.activate();
+  }
+};
 
 class WorkoutApplication {
   private ui;
   private currentlySelectedWorkout;
   private currentlyExecutingSets;
   private currentlyExecutingSetIndex;
-  private workoutsView;
-  private exerciseView;
+  private workoutsViewController;
+  private exercisesViewController;
+  private exerciseViewController;
 
   constructor(ui) {
     this.ui = ui;
-    this.workoutsView = new WorkoutsView(program, ui);
-    this.exerciseView = new ExerciseView(ui);
+    this.workoutsViewController = new WorkoutsViewController(program, ui);
+    this.exercisesViewController = new ExercisesViewController(ui);
+    this.exerciseViewController = new ExerciseViewController(ui);
 
-    this.workoutsView.onWorkoutSelected((workout) => {
+    this.workoutsViewController.onWorkoutSelected((workout) => {
       console.log('Workout selected:', workout);
+      this.exercisesViewController.setExercises(workout.exercises);
+      this.exercisesViewController.activate();
+    });
 
-      this.exerciseView.setExercises(workout.exercises);
-      this.exerciseView.activate();
+    this.exercisesViewController.onExerciseSelected((exercise) => {
+      console.log('Exercise selected', exercise);
+      this.exerciseViewController.setExercise(exercise);
+      this.exerciseViewController.activate();
     });
   }
 
   public initComplete() {
-    this.workoutsView.activate();
-  }
-
-  private workoutSelected(workout) {
-    this.currentlySelectedWorkout = workout;
-    this.showExerciseView(workout.exercises);
-  }
-
-  private exerciseSelected(exercise) {
-    console.log(`Exercise selected: ${exercise.name}`);
-    this.currentlyExecutingSets = exercise.sets;
-    this.currentlyExecutingSetIndex = 0;
-    this.showSetView();
-  }
-
-  private showExerciseView(exercises) {
-    const cmds = exercises.map((exercise) => new Command(exercise.name, () => this.exerciseSelected(exercise)));
-    this.ui.showView('exerciseView', CommandListView, new CommandListViewModel('ExercisesView', cmds), this);
-  }
-
-  private showSetView(putToHistory: boolean = true) {
-    this.ui.showView('setView', SetView, new SetViewModel('SetView', this.currentlyExecutingSets[this.currentlyExecutingSetIndex]), this, putToHistory);
-  }
-
-  private setFinished() {
-    console.log(`Set finished: ${this.currentlyExecutingSets[this.currentlyExecutingSetIndex].name}`);
-    this.currentlyExecutingSetIndex += 1;
-    if (this.currentlyExecutingSets.length >= this.currentlyExecutingSetIndex) {
-      this.showExerciseView(this.currentlySelectedWorkout.exercises);
-    } else {
-      this.showSetView(false);
-    }
+    this.workoutsViewController.activate();
   }
 }
 
