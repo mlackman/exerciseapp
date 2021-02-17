@@ -1,4 +1,5 @@
 <script>
+  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -8,7 +9,7 @@
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
             "repeats": "8, 8, 6",
-            "weight": "32,5kg",
+            "weight": "40,0kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (taakse)",
@@ -18,7 +19,7 @@
         {
             "name": "Vipunostot rinta",
             "repeats": "2 x 10",
-            "weight": "8kg",
+            "weight": "9kg",
         },
         {
             "name": "Pullover käsipainolla",
@@ -41,7 +42,7 @@
             "weight": "keho",
         },
     ]
-    /*
+ */
     let exercises = [
         {
             "name": "leuanveto",
@@ -56,7 +57,7 @@
         {
             "name": "soutu istuen",
             "repeats": "2 x 8",
-            "weight": "22,5 kg",
+            "weight": "25 kg",
         },
         {
             "name": "kulmasoutu levytangolla",
@@ -84,7 +85,6 @@
             "weight": "8kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
