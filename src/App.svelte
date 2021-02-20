@@ -87,16 +87,17 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "pystypunnerrus smith istuen",
             "repeats": "3 x 10",
-            "weight": "15 kg",
+            "weight": "20 kg (ei tankgon painoa)",
         },
         {
             "name": "Käänteiset flyes käsipainoilla",
             "repeats": "3 x 8 - 10",
-            "weight": "5 kg",
+            "weight": "6 kg",
         },
         {
             "name": "Military Press",
@@ -111,7 +112,7 @@
         {
             "name": "Kohautukset käsipainolla",
             "repeats": "2 x 10",
-            "weight": "18 kg",
+            "weight": "20 kg",
         },
         {
             "name": "Pystysoutu tangolla alhaalta ylös",
@@ -124,8 +125,8 @@
             "weight": "0",
         },
     ]
+    */
 
-    /*
     let exercises = [
         {
             "name": "Kyykky",
@@ -153,7 +154,6 @@
             "weight": "25kg",
         },
     ]
-    */
 
     /*
     let exercises = [
