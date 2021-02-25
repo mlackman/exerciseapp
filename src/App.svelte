@@ -1,5 +1,4 @@
 <script>
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -42,7 +41,7 @@
             "weight": "keho",
         },
     ]
-    */
+    /*
     let exercises = [
         {
             "name": "leuanveto",
@@ -67,7 +66,7 @@
         {
             "name": "Ylätalja",
             "repeats": "10, 10, 8",
-            "weight": "42,5kg",
+            "weight": "40kg",
         },
         {
             "name": "Hauiskääntö levytangolla",
@@ -85,6 +84,7 @@
             "weight": "8kg",
         },
     ]
+  */
     /*
     let exercises = [
         {
@@ -123,6 +123,8 @@
             "weight": "0",
         },
     ]
+
+    */
 
     /*
     let exercises = [
