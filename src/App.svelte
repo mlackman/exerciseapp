@@ -88,6 +88,7 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "pystypunnerrus smith istuen",
@@ -125,14 +126,14 @@
             "weight": "0",
         },
     ]
+    */
 
 
-    /*
     let exercises = [
         {
             "name": "Kyykky",
             "repeats": "10, 8, 8 ,6 , 4",
-            "weight": "60kg",
+            "weight": "62,5kg",
         },
         {
             "name": "Reiden ojennus",
@@ -142,12 +143,12 @@
         {
             "name": "Reiden koukistus",
             "repeats": "3 x 12",
-            "weight": "40kg",
+            "weight": "42,5kg",
         },
         {
             "name": "Pohjenousu seisten",
             "repeats": "4 x 12",
-            "weight": "57,5kg",
+            "weight": "60,0kg",
         },
         {
             "name": "Pohjenousu istuen",
@@ -155,7 +156,6 @@
             "weight": "25kg",
         },
     ]
-  */
 
     /*
     let exercises = [
