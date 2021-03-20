@@ -9,5 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: npm install -g bats
-      - run: bats -v
+      - run: npm install
+      - run: npm run build
+      - run: ls build
