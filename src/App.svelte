@@ -1,5 +1,4 @@
 <script>
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -42,7 +41,6 @@
             "weight": "keho",
         },
     ]
-    */
 
     /*
     let exercises = [
@@ -88,6 +86,7 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "pystypunnerrus smith istuen",
@@ -97,22 +96,22 @@
         {
             "name": "Käänteiset flyes käsipainoilla",
             "repeats": "3 x 8 - 10",
-            "weight": "6 kg",
+            "weight": "4 kg",
         },
         {
             "name": "Military Press",
             "repeats": "4 x 10",
-            "weight": "22,5 kg",
+            "weight": "25 kg",
         },
         {
             "name": "Vipunostot sivulle",
             "repeats": "2 x 10",
-            "weight": "6 kg",
+            "weight": "7.5 kg",
         },
         {
             "name": "Kohautukset käsipainolla",
             "repeats": "2 x 10",
-            "weight": "22 kg",
+            "weight": "24 kg",
         },
         {
             "name": "Pystysoutu tangolla alhaalta ylös",
@@ -125,6 +124,7 @@
             "weight": "0",
         },
     ]
+    */
 
 
     /*
