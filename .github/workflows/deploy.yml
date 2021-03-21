@@ -4,11 +4,21 @@ on:
     branches:
       - deploy-workflow
 jobs:
-  check-bats-version:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-      - run: npm install
-      - run: npm run build
-      - run: ls public/build
+      - name: Checkout
+        - uses: actions/checkout@v2
+      - name: AWS creds
+        uses: aws-actions/configure-aws-credentials@v1
+          with:
+            aws-access-key-id: ${{ secrets.AWS_KEY_ID }}
+            aws-secret-access-key: ${{ secrets.AWS_ACCESS_KEY }}
+            aws-region: eu-west-1
+      - name: Build
+        - uses: actions/setup-node@v1
+        - run: npm install
+        - run: npm run build
+
+      - name: Copy files to s3
+        - run: aws s3 sync public s3://my-s3-test-website-bucket
