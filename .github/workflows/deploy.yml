@@ -19,8 +19,8 @@ jobs:
 
     - name: Build
       uses: actions/setup-node@v1
-      - run: npm install
-      - run: npm run build
+      run: npm install
+      run: npm run build
 
     - name: Copy files to s3
       run: aws s3 sync public s3://my-s3-test-website-bucket
