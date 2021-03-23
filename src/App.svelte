@@ -4,7 +4,7 @@
         {
             "name": "Penkkipunnerrus",
             "repeats": "10, 8, 8, 6",
-            "weight": "50,0kg 52,5kg 52,5kg 55,0kg ",
+            "weight": "50,0kg 52,5kg 52,5kg 57,5kg ",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
@@ -14,7 +14,7 @@
         {
             "name": "Vinopenkkipunnerrus tangolla (taakse)",
             "repeats": "8, 8, 6",
-            "weight": "25kg",
+            "weight": "35kg",
         },
         {
             "name": "Vipunostot rinta",
@@ -24,7 +24,7 @@
         {
             "name": "Pullover käsipainolla",
             "repeats": "2 x 8",
-            "weight": "16kg",
+            "weight": "18kg",
         },
         {
             "name": "Ojentajat taljassa, painoa lisäten",
@@ -41,10 +41,9 @@
             "repeats": "3 x 8",
             "weight": "keho",
         },
-    ]
+      ]
     */
 
-    /*
     let exercises = [
         {
             "name": "leuanveto",
@@ -54,17 +53,17 @@
         {
             "name": "Kulmasoutu käsipaino",
             "repeats": "3 x 8",
-            "weight": "22 kg",
+            "weight": "24 kg",
         },
         {
             "name": "soutu istuen",
             "repeats": "2 x 8",
-            "weight": "32,5 kg",
+            "weight": "35 kg",
         },
         {
             "name": "kulmasoutu levytangolla",
             "repeats": "2 x 8",
-            "weight": "47,5 kg",
+            "weight": "50,0kg",
         },
         {
             "name": "Ylätalja",
@@ -74,12 +73,12 @@
         {
             "name": "Hauiskääntö levytangolla",
             "repeats": "8, 8, 6",
-            "weight": "25kg",
+            "weight": "27.5kg",
         },
         {
             "name": "Hauis vinopenkki",
             "repeats": "8, 8, 6",
-            "weight": "22,5kg",
+            "weight": "25kg",
         },
         {
             "name": "Hauiskääntö käsipainolla istuen",
@@ -87,7 +86,7 @@
             "weight": "8kg",
         },
     ]
-    */
+    /*
     let exercises = [
         {
             "name": "pystypunnerrus smith istuen",
@@ -97,22 +96,22 @@
         {
             "name": "Käänteiset flyes käsipainoilla",
             "repeats": "3 x 8 - 10",
-            "weight": "6 kg",
+            "weight": "4 kg",
         },
         {
             "name": "Military Press",
             "repeats": "4 x 10",
-            "weight": "22,5 kg",
+            "weight": "25 kg",
         },
         {
             "name": "Vipunostot sivulle",
             "repeats": "2 x 10",
-            "weight": "6 kg",
+            "weight": "7.5 kg",
         },
         {
             "name": "Kohautukset käsipainolla",
             "repeats": "2 x 10",
-            "weight": "22 kg",
+            "weight": "24 kg",
         },
         {
             "name": "Pystysoutu tangolla alhaalta ylös",
@@ -125,6 +124,7 @@
             "weight": "0",
         },
     ]
+    */
 
 
     /*
