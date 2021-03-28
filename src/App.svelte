@@ -1,9 +1,10 @@
 <script>
+  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "10, 8, 8, 6",
-            "weight": "50,0kg 52,5kg 52,5kg 57,5kg ",
+            "weight": "52,5kg 52,5kg 52,5kg 60.0kg ",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
@@ -42,6 +43,7 @@
         },
       ]
 
+    */
     /*
     let exercises = [
         {
@@ -127,12 +129,11 @@
     */
 
 
-    /*
     let exercises = [
         {
             "name": "Kyykky",
             "repeats": "10, 8, 8 ,6 , 4",
-            "weight": "62,5kg",
+            "weight": "65,0kg",
         },
         {
             "name": "Reiden ojennus",
@@ -155,7 +156,6 @@
             "weight": "25kg",
         },
     ]
-    */
 
     /*
     let exercises = [
