@@ -44,7 +44,6 @@
       ]
 
     */
-    /*
     let exercises = [
         {
             "name": "leuanveto",
@@ -59,7 +58,7 @@
         {
             "name": "soutu istuen",
             "repeats": "2 x 8",
-            "weight": "35 kg",
+            "weight": "30 kg",
         },
         {
             "name": "kulmasoutu levytangolla",
@@ -74,7 +73,7 @@
         {
             "name": "Hauiskääntö levytangolla",
             "repeats": "8, 8, 6",
-            "weight": "27.5kg",
+            "weight": "30.0kg",
         },
         {
             "name": "Hauis vinopenkki",
@@ -87,7 +86,6 @@
             "weight": "8kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
@@ -128,6 +126,7 @@
     ]
     */
 
+    /*
 
     let exercises = [
         {
@@ -153,9 +152,10 @@
         {
             "name": "Pohjenousu istuen",
             "repeats": "2 x 12",
-            "weight": "25kg",
+            "weight": "32,5kg",
         },
     ]
+    */
 
     /*
     let exercises = [
