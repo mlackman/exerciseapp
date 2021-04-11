@@ -88,6 +88,7 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "pystypunnerrus smith istuen",
@@ -125,6 +126,7 @@
             "weight": "0",
         },
     ]
+    */
 
     /*
 
@@ -157,22 +159,21 @@
     ]
     */
 
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
-            "repeats": "3 x 5 - 8",
-            "weight": "55,0kg",
-        },
-        {
-            "name": "Ylätalja",
-            "repeats": "3 x 10 - 15",
-            "weight": "35kg",
+            "repeats": "10, 8, 8, 6",
+            "weight": "52,5kg 52,5kg 52,5kg 60.0kg ",
         },
         {
             "name": "Kyykky",
-            "repeats": "3 x 5 - 8",
-            "weight": "65kg",
+            "repeats": "10, 8, 8 ,6 , 4",
+            "weight": "65,0kg",
+        },
+        {
+            "name": "Ylätalja",
+            "repeats": "10, 10, 8",
+            "weight": "45kg",
         },
         {
             "name": "Jalan koukistus",
@@ -185,17 +186,16 @@
             "weight": "14kg",
         },
         {
-            "name": "Käsipaino Hauis vinopenkki",
-            "repeats": "2 x 10 - 15",
+            "name": "Käsipaino Hauis",
+            "repeats": "2 x 10",
             "weight": "10kg",
         },
         {
-            "name": "Ojentaja talja",
-            "repeats": "2 x 10 - 15",
-            "weight": "17kg",
+            "name": "Ojentajat taljassa, painoa lisäten",
+            "repeats": "10, 8 ,8 , 6",
+            "weight": "15.0kg",
         },
     ]
-   */
 
     /*
     let exercises = [
