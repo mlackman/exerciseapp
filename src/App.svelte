@@ -198,6 +198,7 @@
         },
     ]
     */
+    /*
       let exercises = [
         {
             "name": "leuanveto",
@@ -226,20 +227,21 @@
         },
         {
             "name": "Vipunostot sivulle",
-            "repeats": "2 x 10 - 15",
-            "weight": "6kg",
+            "repeats": "3 x 10",
+            "weight": "7,5kg",
         },
         {
             "name": "Ojentajat päänyli",
-            "repeats": "2 x 10 - 15",
+            "repeats": "3 x 10",
             "weight": "16kg",
         },
         {
             "name": "Pohjenousu seisten",
             "repeats": "4 x 12",
-            "weight": "60,0kg",
+            "weight": "62,5kg",
         },
     ]
+    */
     /*
     let exercises = [
         {
@@ -279,45 +281,44 @@
         },
     ]
     */
-    /*
     let exercises = [
         {
-            "name": "Rinta crossover",
-            "repeats": "3 x 15 - 20",
-            "weight": "7.5kg",
+            "name": "Military Press",
+            "repeats": "4 x 10",
+            "weight": "25 kg",
+        },
+
+        {
+            "name": "Kulmasoutu käsipaino",
+            "repeats": "3 x 8",
+            "weight": "24 kg",
         },
         {
-            "name": "Soutu käsipainoilla",
-            "repeats": "3 x 5 - 8",
-            "weight": "24kg",
+            "name": "Ojentaja dippi",
+            "repeats": "3 x max",
+            "weight": "keho",
         },
         {
-            "name": "Jalan suoristus",
-            "repeats": "3 x 15 - 20",
-            "weight": "25kg",
+            "name": "Vipunostot rinta",
+            "repeats": "3 x 10",
+            "weight": "10kg",
         },
         {
-            "name": "Jalan koukistus",
-            "repeats": "3 x 15 - 20",
-            "weight": "32,5kg",
-        },
-        {
-            "name": "Bent over laterall raise",
-            "repeats": "2 x 10 - 15",
+            "name": "Käänteiset flyes",
+            "repeats": "3 x 12",
             "weight": "6kg",
         },
         {
-            "name": "Hauis tangolla",
-            "repeats": "2 x 10 - 15",
-            "weight": "22.5kg",
+            "name": "Hauiskääntö levytangolla",
+            "repeats": "8, 8, 6",
+            "weight": "30.0kg",
         },
         {
-            "name": "Ojentajat tanko",
-            "repeats": "2 x 10 - 15",
-            "weight": "17.5kg",
+            "name": "Kohautukset käsipainolla",
+            "repeats": "3 x 10",
+            "weight": "24 kg",
         },
     ]
-    */
 
  </script>
 <style>
