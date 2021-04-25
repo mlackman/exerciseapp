@@ -160,7 +160,6 @@
     */
 
     /********************/
-  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -198,7 +197,6 @@
             "weight": "15.0kg",
         },
     ]
-  */
     /*
       let exercises = [
         {
@@ -243,6 +241,7 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "Military Press",
@@ -281,6 +280,7 @@
             "weight": "24 kg",
         },
     ]
+    */
 
     /*
     let exercises = [
