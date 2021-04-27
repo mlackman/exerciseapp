@@ -160,6 +160,7 @@
     */
 
     /********************/
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -169,12 +170,12 @@
         {
             "name": "Kyykky",
             "repeats": "10, 8, 8 ,6 , 4",
-            "weight": "65,0kg, 65, 67.5, 70, 72.5",
+            "weight": "62,5kg, 65, 67.5, 70, 72.5",
         },
         {
             "name": "Ylätalja",
             "repeats": "10, 10, 8",
-            "weight": "45kg",
+            "weight": "45kg, 50kg",
         },
         {
             "name": "Jalan koukistus",
@@ -189,15 +190,15 @@
         {
             "name": "Käsipaino Hauis",
             "repeats": "3 x 10",
-            "weight": "10kg",
+            "weight": "12kg",
         },
         {
             "name": "Ojentajat taljassa, painoa lisäten",
             "repeats": "10, 8 ,8 , 6",
-            "weight": "15.0kg",
+            "weight": "17.5kg",
         },
     ]
-    /*
+    */
       let exercises = [
         {
             "name": "leuanveto",
@@ -240,7 +241,6 @@
             "weight": "62,5kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
