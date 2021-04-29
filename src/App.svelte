@@ -199,6 +199,7 @@
         },
     ]
     */
+  /*
       let exercises = [
         {
             "name": "leuanveto",
@@ -213,12 +214,12 @@
         {
             "name": "kulmasoutu levytangolla",
             "repeats": "3 x 8",
-            "weight": "52,5kg",
+            "weight": "55kg",
         },
         {
             "name": "Suorinjaloin maastaveto",
             "repeats": "3 x 10 - 15",
-            "weight": "52.5kg",
+            "weight": "52.5kg, 55.5kg",
         },
         {
             "name": "Pullover käsipainolla",
@@ -233,7 +234,7 @@
         {
             "name": "Ojentajat päänyli",
             "repeats": "3 x 10",
-            "weight": "15kg",
+            "weight": "17,5kg",
         },
         {
             "name": "Pohjenousu seisten",
@@ -241,14 +242,13 @@
             "weight": "62,5kg",
         },
     ]
-    /*
+  */
     let exercises = [
         {
             "name": "Military Press",
             "repeats": "4 x 10",
             "weight": "25 kg",
         },
-
         {
             "name": "Kulmasoutu käsipaino",
             "repeats": "3 x 8",
@@ -280,7 +280,6 @@
             "weight": "24 kg",
         },
     ]
-    */
 
     /*
     let exercises = [
