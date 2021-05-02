@@ -160,17 +160,16 @@
     */
 
     /********************/
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "10, 8, 8, 6",
-            "weight": "52,5kg 52,5kg 55.0kg 60.0kg ",
+            "weight": "52,5kg 55,5kg 57.5kg 60.0kg ",
         },
         {
             "name": "Kyykky",
             "repeats": "10, 8, 8 ,6 , 4",
-            "weight": "62,5kg, 65, 67.5, 70, 72.5",
+            "weight": "62,5kg, 65, 67.5, 70, 75",
         },
         {
             "name": "Ylätalja",
@@ -198,7 +197,6 @@
             "weight": "17.5kg",
         },
     ]
-    */
   /*
       let exercises = [
         {
@@ -243,6 +241,7 @@
         },
     ]
   */
+    /*
     let exercises = [
         {
             "name": "Military Press",
@@ -281,6 +280,7 @@
         },
     ]
 
+    */
     /*
     let exercises = [
         {
