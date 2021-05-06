@@ -160,7 +160,6 @@
     */
 
     /********************/
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -198,7 +197,7 @@
             "weight": "17.5kg",
         },
     ]
-    */
+    /*
       let exercises = [
         {
             "name": "leuanveto",
@@ -241,6 +240,7 @@
             "weight": "62,5kg",
         },
     ]
+    */
     /*
     let exercises = [
         {
@@ -271,7 +271,7 @@
         {
             "name": "Hauiskääntö levytangolla",
             "repeats": "8, 8, 6",
-            "weight": "30.0kg",
+            "weight": "25.0kg 30.0kg",
         },
         {
             "name": "Kohautukset käsipainolla",
@@ -279,8 +279,8 @@
             "weight": "24 kg",
         },
     ]
-
     */
+
     /*
     let exercises = [
         {
