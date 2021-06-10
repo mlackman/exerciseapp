@@ -163,7 +163,7 @@
         {
             "name": "Penkkipunnerrus",
             "repeats": "10, 8, 8, 6",
-            "weight": "52,5kg 55,5kg 57.5kg 60.0kg ",
+            "weight": "55kg 57,5kg 60kg 62.5kg ",
         },
         {
             "name": "Kyykky",
@@ -197,6 +197,7 @@
         },
     ]
     */
+    /*
       let exercises = [
         {
             "name": "leuanveto",
@@ -206,12 +207,12 @@
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
             "repeats": "8, 8, 6",
-            "weight": "30,0kg",
+            "weight": "32,5kg",
         },
         {
             "name": "kulmasoutu levytangolla",
             "repeats": "3 x 8",
-            "weight": "55kg",
+            "weight": "55kg, 57,5kg",
         },
         {
             "name": "Suorinjaloin maastaveto",
@@ -239,7 +240,7 @@
             "weight": "62,5kg",
         },
     ]
-    /*
+    */
     let exercises = [
         {
             "name": "Military Press",
@@ -247,19 +248,19 @@
             "weight": "25 kg",
         },
         {
-            "name": "Kulmasoutu käsipaino",
-            "repeats": "3 x 8",
-            "weight": "24 kg",
-        },
-        {
-            "name": "Ojentaja dippi",
+            "name": "Leuanveto selällä",
             "repeats": "3 x max",
             "weight": "keho",
         },
         {
+            "name": "Ojentaja dippi",
+            "repeats": "3 x max",
+            "weight": "keho + 5kg",
+        },
+        {
             "name": "Vipunostot rinta",
             "repeats": "3 x 10",
-            "weight": "12kg",
+            "weight": "14kg",
         },
         {
             "name": "Käänteiset flyes",
@@ -277,8 +278,6 @@
             "weight": "24 kg",
         },
     ]
-  */
-
     /*
     let exercises = [
         {
