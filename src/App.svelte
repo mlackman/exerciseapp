@@ -158,12 +158,11 @@
         },
     ]
     */
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "10, 8, 8, 6",
-            "weight": "55kg 57,5kg 60kg 62.5kg ",
+            "weight": "57,5kg 60kg 62.5kg 65.0kg ",
         },
         {
             "name": "Kyykky",
@@ -178,7 +177,7 @@
         {
             "name": "Jalan koukistus",
             "repeats": "3 x 10 - 15",
-            "weight": "37,5kg",
+            "weight": "40,0kg",
         },
         {
             "name": "Käsipaino olkapääprässi",
@@ -196,7 +195,6 @@
             "weight": "17.5kg",
         },
     ]
-    */
     /*
       let exercises = [
         {
@@ -241,11 +239,12 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "Military Press",
             "repeats": "4 x 10",
-            "weight": "25 kg",
+            "weight": "30 kg",
         },
         {
             "name": "Leuanveto selällä",
@@ -265,19 +264,20 @@
         {
             "name": "Käänteiset flyes",
             "repeats": "3 x 12",
-            "weight": "6kg",
+            "weight": "7.5kg",
         },
         {
             "name": "Hauiskääntö levytangolla",
             "repeats": "8, 8, 6",
-            "weight": "25.0kg 30.0kg",
+            "weight": "27.5kg 30.0kg",
         },
         {
             "name": "Kohautukset käsipainolla",
             "repeats": "3 x 10",
-            "weight": "24 kg",
+            "weight": "26 kg",
         },
     ]
+    */
     /*
     let exercises = [
         {
