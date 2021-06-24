@@ -158,16 +158,17 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "10, 8, 8, 6",
-            "weight": "57,5kg 60kg 62.5kg 65.0kg ",
+            "weight": "55,0kg 57,5kg 60.0kg 62.5kg ",
         },
         {
             "name": "Kyykky",
             "repeats": "10, 8, 8 ,6 , 4",
-            "weight": "65kg, 67.5, 70, 72.5, 75",
+            "weight": "67.5kg, 70.0, 72.5, 75, 77,5",
         },
         {
             "name": "Ylätalja",
@@ -195,7 +196,7 @@
             "weight": "17.5kg",
         },
     ]
-    /*
+    */
       let exercises = [
         {
             "name": "leuanveto",
@@ -238,7 +239,6 @@
             "weight": "62,5kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
