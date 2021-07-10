@@ -197,6 +197,7 @@
         },
     ]
     */
+    /*
       let exercises = [
         {
             "name": "leuanveto",
@@ -239,7 +240,7 @@
             "weight": "62,5kg",
         },
     ]
-    /*
+    */
     let exercises = [
         {
             "name": "Military Press",
@@ -264,12 +265,12 @@
         {
             "name": "Käänteiset flyes",
             "repeats": "3 x 12",
-            "weight": "7.5kg",
+            "weight": "8kg",
         },
         {
             "name": "Hauiskääntö levytangolla",
             "repeats": "8, 8, 6",
-            "weight": "27.5kg 30.0kg",
+            "weight": "27.5kg 30.0kg, 30kg",
         },
         {
             "name": "Kohautukset käsipainolla",
@@ -277,7 +278,6 @@
             "weight": "26 kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
