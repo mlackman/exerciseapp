@@ -158,6 +158,7 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -194,8 +195,7 @@
             "repeats": "10, 8 ,8 , 6",
             "weight": "17.5kg",
         },
-    ]
-    /*
+    ]*/
       let exercises = [
         {
             "name": "leuanveto",
@@ -225,7 +225,7 @@
         {
             "name": "Vipunostot sivulle",
             "repeats": "3 x 10",
-            "weight": "7,5kg",
+            "weight": "8kg",
         },
         {
             "name": "Ojentajat päänyli",
@@ -235,10 +235,9 @@
         {
             "name": "Pohjenousu seisten",
             "repeats": "4 x 12",
-            "weight": "62,5kg",
+            "weight": "65.0kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
