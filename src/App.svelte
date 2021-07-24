@@ -158,7 +158,6 @@
         },
     ]
     */
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -183,7 +182,7 @@
         {
             "name": "Käsipaino olkapääprässi",
             "repeats": "3 x 5 - 8",
-            "weight": "14kg",
+            "weight": "14kg, 16kg, 16kg",
         },
         {
             "name": "Käsipaino Hauis",
@@ -195,7 +194,7 @@
             "repeats": "10, 8 ,8 , 6",
             "weight": "17.5kg",
         },
-    ]*/
+    ]
     /*
       let exercises = [
         {
@@ -240,6 +239,7 @@
         },
     ]
     */
+    /*
     let exercises = [
         {
             "name": "Military Press",
@@ -277,6 +277,7 @@
             "weight": "28 kg",
         },
     ]
+    */
     /*
     let exercises = [
         {
