@@ -157,7 +157,7 @@
             "weight": "32,5kg",
         },
     ]
-    */
+  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -172,7 +172,7 @@
         {
             "name": "Ylätalja",
             "repeats": "10, 10, 8",
-            "weight": "45kg, 50kg",
+            "weight": "55kg, 60kg",
         },
         {
             "name": "Jalan koukistus",
@@ -195,7 +195,7 @@
             "weight": "17.5kg",
         },
     ]
-    /*
+ */
       let exercises = [
         {
             "name": "leuanveto",
@@ -205,17 +205,17 @@
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
             "repeats": "8, 8, 6",
-            "weight": "32,5kg",
+            "weight": "45kg, 50kg",
         },
         {
             "name": "kulmasoutu levytangolla",
             "repeats": "3 x 8",
-            "weight": "55kg, 57,5kg",
+            "weight": "55kg, 57,5kg, 60kg",
         },
         {
-            "name": "Suorinjaloin maastaveto",
-            "repeats": "3 x 10 - 15",
-            "weight": "52.5kg, 55.5kg",
+            "name": "maastaveto",
+            "repeats": "3 x 5-8",
+            "weight": "70kg 85kg 100",
         },
         {
             "name": "Pullover käsipainolla",
@@ -238,7 +238,6 @@
             "weight": "65.0kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
