@@ -197,6 +197,7 @@
         },
     ]
     */
+    /*
       let exercises = [
         {
             "name": "leuanveto",
@@ -239,7 +240,6 @@
             "weight": "65.0kg",
         },
     ]
-    /*
     let exercises = [
         {
             "name": "Military Press",
@@ -277,7 +277,6 @@
             "weight": "28 kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
