@@ -158,6 +158,7 @@
         },
     ]
  */
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -195,7 +196,7 @@
             "weight": "17.5kg",
         },
     ]
-    /*
+    */
       let exercises = [
         {
             "name": "leuanveto",
@@ -209,13 +210,13 @@
         },
         {
             "name": "kulmasoutu levytangolla",
-            "repeats": "3 x 8",
-            "weight": "55kg, 57,5kg, 60kg",
+            "repeats": "4 x 8",
+            "weight": "50kg, 55kg, 60kg, 50kg",
         },
         {
             "name": "maastaveto",
-            "repeats": "3 x 5-8",
-            "weight": "70kg 85kg 100",
+            "repeats": "4 x 5-8",
+            "weight": "70kg, 80kg,100kg, 110kg",
         },
         {
             "name": "Pullover käsipainolla",
@@ -228,17 +229,16 @@
             "weight": "8kg",
         },
         {
-            "name": "Ojentajat päänyli",
+            "name": "Kapea penkkipunnerrus",
             "repeats": "3 x 10",
-            "weight": "17,5kg",
+            "weight": "20,0kg",
         },
         {
-            "name": "Pohjenousu seisten",
+            "name": "Pohjenousu laitteessa ",
             "repeats": "4 x 12",
-            "weight": "65.0kg",
+            "weight": "20kg, 30.0kg",
         },
     ]
-    */
     /*
     let exercises = [
         {
