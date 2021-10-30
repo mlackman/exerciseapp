@@ -158,6 +158,7 @@
         },
     ]
  */
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -195,6 +196,7 @@
             "weight": "17.5kg",
         },
     ]
+    */
     /*
       let exercises = [
         {
@@ -239,12 +241,11 @@
         },
     ]
     */
-    /*
     let exercises = [
         {
             "name": "Military Press",
             "repeats": "4 x 10",
-            "weight": "35 kg",
+            "weight": "30, 35, 40, 30 ",
         },
         {
             "name": "Leuanveto selällä",
@@ -276,8 +277,17 @@
             "repeats": "3 x 10",
             "weight": "28 kg",
         },
+        {
+            "name": "Jalan koukistus",
+            "repeats": "3 x 10 - 15",
+            "weight": "50,0kg",
+        },
+        {
+            "name": "Jalan suoristus",
+            "repeats": "3 x 10 - 15",
+            "weight": "50,0kg",
+        },
     ]
-    */
     /*
     let exercises = [
         {
