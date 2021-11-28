@@ -157,6 +157,7 @@
             "weight": "32,5kg",
         },
     ]
+  */
     let exercises = [
         {
             "name": "Penkkipunnerrus",
