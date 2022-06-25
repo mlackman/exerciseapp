@@ -1,14 +1,15 @@
 <script>
+  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "10, 8, 8, 6",
-            "weight": "45kg 50kg 50kg 52,5kg ",
+            "weight": "42,5kg 45kg 50kg 52,5kg ",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
             "repeats": "8, 8, 6",
-            "weight": "30,0kg",
+            "weight": "30,0kg, 32,0kg, 35,0kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (taakse)",
@@ -18,7 +19,7 @@
         {
             "name": "Vipunostot rinta",
             "repeats": "2 x 10",
-            "weight": "10kg",
+            "weight": "10kg, 12,5kg",
         },
         {
             "name": "Pullover käsipainolla",
@@ -41,7 +42,71 @@
             "weight": "keho",
         },
       ]
+    */
 
+    // Arms and abs
+    /*
+    let exercises = [
+      {
+        "name": "Kapea penkki (rest-pause)",
+        "repeats": "12, 10, 12",
+        "weight": "20kg",
+      },
+      {
+        "name": "Ojentaja dippi(rest-pause) ",
+        "repeats": "12, 10, 12",
+        "weight": "20kg",
+      },
+      {
+        "name": "Ojentaja taljassa",
+        "repeats": "12, 12, 12",
+        "weight": "17.5kg",
+      },
+    ];
+    */
+
+    let exercises = [
+      {
+        "name": "maastaveto",
+        "repeats": "12, 10, 12",
+        "weight": "70 kg",
+      },
+      {
+        "name": "jalankoukistus",
+        "repeats": "12, 10, 12",
+        "weight": "50kg",
+      },
+      {
+        "name": "Jalkakyykky käsipainoilla",
+        "repeats": "12, 12, 12",
+        "weight": "17.5kg",
+      },
+      {
+        "name": "kyykky",
+        "repeats": "12, 12, 12",
+        "weight": "60kg",
+      },
+      {
+        "name": "jalan suoristus",
+        "repeats": "12, 12, 12",
+        "weight": "45kg",
+      },
+      {
+        "name": "sivu kyykky",
+        "repeats": "12, 12, 12",
+        "weight": "0kg",
+      },
+      {
+        "name": "pohje laitteessa",
+        "repeats": "12, 12, 12",
+        "weight": "20kg",
+      },
+      {
+        "name": "pohje pressissä",
+        "repeats": "12, 12, 12",
+        "weight": "20kg",
+      },
+    ];
     /*
     let exercises = [
         {
