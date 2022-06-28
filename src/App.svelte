@@ -44,6 +44,33 @@
       ]
     */
 
+    let exercises = [
+      {
+        "name": "kulmasoutu tangolla",
+        "repeats": "12, 10, 12",
+        "weight": "45kg",
+      },
+      {
+        "name": "Pullover käsipainolla",
+        "repeats": "12, 10, 15",
+        "weight": "15kg",
+      },
+      {
+        "name": "ylätalja",
+        "repeats": "12, 12, 12",
+        "weight": "45kg",
+      },
+      {
+        "name": "facepull taljassa",
+        "repeats": "12, 12, 12",
+        "weight": "30kg",
+      },
+      {
+        "name": "Olan kohautukset",
+        "repeats": "12, 12, 12",
+        "weight": "40kg",
+      }
+    ];
     // Arms and abs
     /*
     let exercises = [
@@ -65,11 +92,12 @@
     ];
     */
 
+    /*
     let exercises = [
       {
         "name": "maastaveto",
         "repeats": "12, 10, 12",
-        "weight": "70 kg",
+        "weight": "65 kg",
       },
       {
         "name": "jalankoukistus",
@@ -79,17 +107,17 @@
       {
         "name": "Jalkakyykky käsipainoilla",
         "repeats": "12, 12, 12",
-        "weight": "17.5kg",
+        "weight": "12.5kg",
       },
       {
         "name": "kyykky",
         "repeats": "12, 12, 12",
-        "weight": "60kg",
+        "weight": "55kg",
       },
       {
         "name": "jalan suoristus",
         "repeats": "12, 12, 12",
-        "weight": "45kg",
+        "weight": "52.5kg",
       },
       {
         "name": "sivu kyykky",
@@ -99,14 +127,15 @@
       {
         "name": "pohje laitteessa",
         "repeats": "12, 12, 12",
-        "weight": "20kg",
+        "weight": "25kg",
       },
       {
         "name": "pohje pressissä",
         "repeats": "12, 12, 12",
-        "weight": "20kg",
+        "weight": "70kg",
       },
     ];
+    */
     /*
     let exercises = [
         {
