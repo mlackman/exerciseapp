@@ -61,6 +61,11 @@
         "weight": "45kg",
       },
       {
+        "name": "Käänteiset flyes kp",
+        "repeats": "12, 12, 12",
+        "weight": "5kg",
+      },
+      {
         "name": "facepull taljassa",
         "repeats": "12, 12, 12",
         "weight": "30kg",
