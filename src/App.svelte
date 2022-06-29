@@ -1,81 +1,71 @@
 <script>
-  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
-            "repeats": "10, 8, 8, 6",
-            "weight": "42,5kg 45kg 50kg 52,5kg ",
+            "repeats": "12, 12, 12",
+            "weight": "42,5kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
-            "repeats": "8, 8, 6",
+            "repeats": "12, 10, 12",
             "weight": "30,0kg, 32,0kg, 35,0kg",
         },
         {
-            "name": "Vinopenkkipunnerrus tangolla (taakse)",
-            "repeats": "8, 8, 6",
-            "weight": "30kg",
-        },
-        {
             "name": "Vipunostot rinta",
-            "repeats": "2 x 10",
-            "weight": "10kg, 12,5kg",
+            "repeats": "12, 12, 12",
+            "weight": "12,5kg",
         },
         {
-            "name": "Pullover käsipainolla",
-            "repeats": "2 x 8",
+            "name": "Pullover käsipainolla (rinta)",
+            "repeats": "12 12 12 ",
             "weight": "15kg",
         },
         {
-            "name": "Ojentajat taljassa, painoa lisäten",
-            "repeats": "10, 8 ,8 , 6",
-            "weight": "15.0kg",
+            "name": "Military Press",
+            "repeats": "4 x 10",
+            "weight": "25 kg",
         },
         {
-            "name": "Ojentaja dippi",
-            "repeats": "3 x max",
-            "weight": "keho",
-        },
-        {
-            "name": "Ojentaja dippi penkillä",
-            "repeats": "3 x 8",
-            "weight": "keho",
+            "name": "vipunostot sivulle/eteen",
+            "repeats": "12, 12, 12",
+            "weight": "6kg",
         },
       ]
-    */
 
+  /*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
         "repeats": "12, 10, 12",
-        "weight": "45kg",
+        "weight": "40kg, 45kg, 47.5kg",
       },
       {
         "name": "Pullover käsipainolla",
         "repeats": "12, 10, 15",
-        "weight": "15kg",
+        "weight": "12kg, 15kg, 17.5kg",
       },
       {
         "name": "ylätalja",
         "repeats": "12, 12, 12",
-        "weight": "45kg",
+        "weight": "42.5kg, 45kg, 42.5kg",
       },
       {
         "name": "Käänteiset flyes kp",
         "repeats": "12, 12, 12",
-        "weight": "5kg",
+        "weight": "4kg, 5kg, 5kg",
       },
       {
         "name": "facepull taljassa",
         "repeats": "12, 12, 12",
-        "weight": "30kg",
+        "weight": "10kg, 12.5kh, 15kg",
       },
       {
         "name": "Olan kohautukset",
         "repeats": "12, 12, 12",
-        "weight": "40kg",
+        "weight": "22.5kg, 22.5, 20kg",
       }
     ];
+    */
     // Arms and abs
     /*
     let exercises = [
