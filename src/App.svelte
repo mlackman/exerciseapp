@@ -1,14 +1,15 @@
 <script>
+  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "12, 12, 12",
-            "weight": "42,5kg",
+            "weight": "40kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
             "repeats": "12, 10, 12",
-            "weight": "30,0kg, 32,0kg, 35,0kg",
+            "weight": "30,0kg, 30,0kg, 30,0kg",
         },
         {
             "name": "Vipunostot rinta",
@@ -21,9 +22,9 @@
             "weight": "15kg",
         },
         {
-            "name": "Military Press",
-            "repeats": "4 x 10",
-            "weight": "25 kg",
+            "name": "Punnerus painoilla",
+            "repeats": "12, 12, 12",
+            "weight": "15 kg",
         },
         {
             "name": "vipunostot sivulle/eteen",
@@ -31,6 +32,7 @@
             "weight": "6kg",
         },
       ]
+    */
 
   /*
     let exercises = [
@@ -63,19 +65,20 @@
         "name": "Olan kohautukset",
         "repeats": "12, 12, 12",
         "weight": "22.5kg, 22.5, 20kg",
-      }
+      },
+
     ];
     */
     // Arms and abs
-    /*
     let exercises = [
       {
-        "name": "Kapea penkki (rest-pause)",
+        "name": "Ojentaja dippi",
         "repeats": "12, 10, 12",
-        "weight": "20kg",
+        "weight": "0kg",
       },
+
       {
-        "name": "Ojentaja dippi(rest-pause) ",
+        "name": "Kapea penkki",
         "repeats": "12, 10, 12",
         "weight": "20kg",
       },
@@ -84,8 +87,33 @@
         "repeats": "12, 12, 12",
         "weight": "17.5kg",
       },
+      {
+        "name": "vatsalihakset",
+        "repeats": "12, 12, 12",
+        "weight": "0kg",
+      },
+      {
+        "name": "vatsalihakset koneessa (crunch)",
+        "repeats": "12, 12, 12",
+        "weight": "20kg",
+      },
+      {
+          "name": "Hauiskääntö levytangolla",
+          "repeats": "12, 12, 12",
+          "weight": "20kg",
+      },
+      {
+          "name": "Hauis kp seisten",
+          "repeats": "12, 12, 12",
+          "weight": "8g",
+      },
+      {
+          "name": "Hauiskääntö taljassa",
+          "repeats": "12,12,12",
+          "weight": "12.5kg",
+      },
+
     ];
-    */
 
     /*
     let exercises = [
