@@ -70,6 +70,7 @@
     ];
     */
     // Arms and abs
+    /*
     let exercises = [
       {
         "name": "Ojentaja dippi",
@@ -114,8 +115,8 @@
       },
 
     ];
+    */
 
-    /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -158,7 +159,6 @@
         "weight": "70kg",
       },
     ];
-    */
     /*
     let exercises = [
         {
