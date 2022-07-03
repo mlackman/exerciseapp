@@ -1,5 +1,4 @@
 <script>
-  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -22,7 +21,7 @@
             "weight": "15kg",
         },
         {
-            "name": "Punnerus painoilla",
+            "name": "Pystypunnerus painoilla",
             "repeats": "12, 12, 12",
             "weight": "15 kg",
         },
@@ -32,7 +31,6 @@
             "weight": "6kg",
         },
       ]
-    */
 
   /*
     let exercises = [
@@ -117,6 +115,7 @@
     ];
     */
 
+  /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -159,6 +158,7 @@
         "weight": "70kg",
       },
     ];
+    */
     /*
     let exercises = [
         {
