@@ -1,48 +1,49 @@
 <script>
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "12, 12, 12",
-            "weight": "40kg",
+            "weight": "42.5kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
             "repeats": "12, 10, 12",
-            "weight": "30,0kg, 30,0kg, 30,0kg",
+            "weight": "25,0kg, 25,0kg, 25,0kg",
         },
         {
             "name": "Vipunostot rinta",
             "repeats": "12, 12, 12",
-            "weight": "12,5kg",
+            "weight": "10kg, 10kg, 10kg",
         },
         {
             "name": "Pullover käsipainolla (rinta)",
             "repeats": "12 12 12 ",
-            "weight": "15kg",
+            "weight": "12.5kg",
         },
         {
             "name": "Pystypunnerus painoilla",
             "repeats": "12, 12, 12",
-            "weight": "15 kg",
+            "weight": "10 kg",
         },
         {
             "name": "vipunostot sivulle/eteen",
             "repeats": "12, 12, 12",
-            "weight": "6kg",
+            "weight": "6kg/4kg",
         },
       ]
+      */
 
-  /*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
         "repeats": "12, 10, 12",
-        "weight": "40kg, 45kg, 47.5kg",
+        "weight": "45kg, 45kg, 47.5kg",
       },
       {
         "name": "Pullover käsipainolla",
         "repeats": "12, 10, 15",
-        "weight": "12kg, 15kg, 17.5kg",
+        "weight": "15kg, 15kg, 15kg",
       },
       {
         "name": "ylätalja",
@@ -52,21 +53,20 @@
       {
         "name": "Käänteiset flyes kp",
         "repeats": "12, 12, 12",
-        "weight": "4kg, 5kg, 5kg",
+        "weight": "5kg, 5kg, 5kg",
       },
       {
         "name": "facepull taljassa",
         "repeats": "12, 12, 12",
-        "weight": "10kg, 12.5kh, 15kg",
+        "weight": "15kg, 15kh, 15kg",
       },
       {
         "name": "Olan kohautukset",
         "repeats": "12, 12, 12",
-        "weight": "22.5kg, 22.5, 20kg",
+        "weight": "22.5kg, 22.5kg, 22.5kg",
       },
 
     ];
-    */
     // Arms and abs
     /*
     let exercises = [
