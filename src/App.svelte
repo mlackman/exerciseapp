@@ -34,6 +34,7 @@
       ]
       */
 
+    /*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
@@ -53,7 +54,7 @@
       {
         "name": "Käänteiset flyes kp",
         "repeats": "12, 12, 12",
-        "weight": "5kg, 5kg, 5kg",
+        "weight": "6kg, 6kg, 6kg",
       },
       {
         "name": "facepull taljassa",
@@ -67,8 +68,8 @@
       },
 
     ];
+    */
     // Arms and abs
-    /*
     let exercises = [
       {
         "name": "Ojentaja dippi",
@@ -79,7 +80,7 @@
       {
         "name": "Kapea penkki",
         "repeats": "12, 10, 12",
-        "weight": "20kg",
+        "weight": "30kg",
       },
       {
         "name": "Ojentaja taljassa",
@@ -99,21 +100,20 @@
       {
           "name": "Hauiskääntö levytangolla",
           "repeats": "12, 12, 12",
-          "weight": "20kg",
+          "weight": "22.5kg",
       },
       {
           "name": "Hauis kp seisten",
           "repeats": "12, 12, 12",
-          "weight": "8g",
+          "weight": "10kg",
       },
       {
           "name": "Hauiskääntö taljassa",
           "repeats": "12,12,12",
-          "weight": "12.5kg",
+          "weight": "15kg",
       },
 
     ];
-    */
 
   /*
     let exercises = [
