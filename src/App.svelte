@@ -69,6 +69,7 @@
 
     ];
     */
+    /*
     // Arms and abs
     let exercises = [
       {
@@ -76,16 +77,10 @@
         "repeats": "12, 10, 12",
         "weight": "0kg",
       },
-
       {
-        "name": "Kapea penkki",
-        "repeats": "12, 10, 12",
-        "weight": "30kg",
-      },
-      {
-        "name": "Ojentaja taljassa",
-        "repeats": "12, 12, 12",
-        "weight": "17.5kg",
+          "name": "Hauiskääntö levytangolla",
+          "repeats": "12, 12, 12",
+          "weight": "22.5kg",
       },
       {
         "name": "vatsalihakset",
@@ -93,19 +88,24 @@
         "weight": "0kg",
       },
       {
-        "name": "vatsalihakset koneessa (crunch)",
-        "repeats": "12, 12, 12",
-        "weight": "20kg",
-      },
-      {
-          "name": "Hauiskääntö levytangolla",
-          "repeats": "12, 12, 12",
-          "weight": "22.5kg",
+        "name": "Kapea penkki",
+        "repeats": "12, 10, 12",
+        "weight": "30kg",
       },
       {
           "name": "Hauis kp seisten",
           "repeats": "12, 12, 12",
           "weight": "10kg",
+      },
+      {
+        "name": "vatsalihakset koneessa (crunch)",
+        "repeats": "12, 12, 12",
+        "weight": "20kg",
+      },
+      {
+        "name": "Ojentaja taljassa",
+        "repeats": "12, 12, 12",
+        "weight": "17.5kg",
       },
       {
           "name": "Hauiskääntö taljassa",
@@ -114,13 +114,18 @@
       },
 
     ];
+    */
 
-  /*
     let exercises = [
       {
         "name": "maastaveto",
         "repeats": "12, 10, 12",
-        "weight": "65 kg",
+        "weight": "65kg, 70kg, 70kg",
+      },
+      {
+        "name": "kyykky",
+        "repeats": "12, 12, 12",
+        "weight": "55kg",
       },
       {
         "name": "jalankoukistus",
@@ -131,11 +136,6 @@
         "name": "Jalkakyykky käsipainoilla",
         "repeats": "12, 12, 12",
         "weight": "12.5kg",
-      },
-      {
-        "name": "kyykky",
-        "repeats": "12, 12, 12",
-        "weight": "55kg",
       },
       {
         "name": "jalan suoristus",
@@ -158,7 +158,6 @@
         "weight": "70kg",
       },
     ];
-    */
     /*
     let exercises = [
         {
