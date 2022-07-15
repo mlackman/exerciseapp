@@ -34,6 +34,7 @@
       ]
       */
 
+    /*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
@@ -42,13 +43,13 @@
       },
       {
         "name": "Pullover käsipainolla",
-        "repeats": "12, 10, 15",
-        "weight": "15kg, 15kg, 15kg",
+        "repeats": "12, 12, 12",
+        "weight": "17.5kg, 17.5kg, 17.5kg",
       },
       {
         "name": "ylätalja",
         "repeats": "12, 12, 12",
-        "weight": "42.5kg, 45kg, 45kg",
+        "weight": "42.5kg, 42.5kg, 42.5kg",
       },
       {
         "name": "Käänteiset flyes kp",
@@ -63,11 +64,11 @@
       {
         "name": "Olan kohautukset",
         "repeats": "12, 12, 12",
-        "weight": "22.5kg, 22.5kg, 22.5kg",
+        "weight": "22.5kg, 20kg, 20kg",
       },
 
     ];
-    /*
+    */
     // Arms and abs
     let exercises = [
       {
@@ -91,9 +92,9 @@
         "weight": "30kg",
       },
       {
-          "name": "Hauis kp seisten",
-          "repeats": "12, 12, 12",
-          "weight": "10kg",
+        "name": "Hauis kp seisten",
+        "repeats": "12, 12, 12",
+        "weight": "10kg",
       },
       {
         "name": "vatsalihakset koneessa (crunch)",
@@ -106,13 +107,11 @@
         "weight": "17.5kg",
       },
       {
-          "name": "Hauiskääntö taljassa",
-          "repeats": "12,12,12",
-          "weight": "15kg",
+        "name": "Hauiskääntö taljassa",
+        "repeats": "12,12,12",
+        "weight": "15kg",
       },
-
     ];
-    */
 
     /*
     let exercises = [
