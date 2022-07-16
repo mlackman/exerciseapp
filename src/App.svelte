@@ -69,6 +69,7 @@
 
     ];
     */
+    /*
     // Arms and abs
     let exercises = [
       {
@@ -99,7 +100,7 @@
       {
         "name": "vatsalihakset koneessa (crunch)",
         "repeats": "12, 12, 12",
-        "weight": "20kg",
+        "weight": "42kg",
       },
       {
         "name": "Ojentaja taljassa",
@@ -109,21 +110,21 @@
       {
         "name": "Hauiskääntö taljassa",
         "repeats": "12,12,12",
-        "weight": "15kg",
+        "weight": "17.5kg",
       },
     ];
+    */
 
-    /*
     let exercises = [
       {
         "name": "maastaveto",
         "repeats": "12, 10, 12",
-        "weight": "65kg, 70kg, 70kg",
+        "weight": "70kg, 70kg, 70kg",
       },
       {
         "name": "kyykky",
         "repeats": "12, 12, 12",
-        "weight": "55kg",
+        "weight": "57.5kg",
       },
       {
         "name": "jalankoukistus",
@@ -133,7 +134,7 @@
       {
         "name": "Jalkakyykky käsipainoilla",
         "repeats": "12, 12, 12",
-        "weight": "12.5kg",
+        "weight": "15kg",
       },
       {
         "name": "jalan suoristus",
@@ -143,7 +144,7 @@
       {
         "name": "sivu kyykky",
         "repeats": "12, 12, 12",
-        "weight": "0kg",
+        "weight": "5kg",
       },
       {
         "name": "pohje laitteessa",
@@ -156,7 +157,6 @@
         "weight": "70kg",
       },
     ];
-    */
     /*
     let exercises = [
         {
