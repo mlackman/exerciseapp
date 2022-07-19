@@ -1,14 +1,13 @@
 <script>
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "12, 12, 12",
-            "weight": "45kg", "42.5kg", "42.5kg",
+            "weight": "45kg", "45kg", "45kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
-            "repeats": "12, 10, 12",
+            "repeats": "12, 12, 12",
             "weight": "30,0kg, 30,0kg, 30,0kg",
         },
         {
@@ -18,13 +17,13 @@
         },
         {
             "name": "Pullover käsipainolla (rinta)",
-            "repeats": "12 12 12 ",
-            "weight": "15kg",
+            "repeats": "12 12 12",
+            "weight": "17.5kg",
         },
         {
             "name": "Pystypunnerus painoilla",
             "repeats": "12, 12, 12",
-            "weight": "10 kg",
+            "weight": "12.5 kg",
         },
         {
             "name": "vipunostot sivulle/eteen",
@@ -32,7 +31,6 @@
             "weight": "6kg/4kg",
         },
       ]
-      */
 
     /*
     let exercises = [
@@ -115,6 +113,7 @@
     ];
     */
 
+    /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -144,19 +143,20 @@
       {
         "name": "sivu kyykky",
         "repeats": "12, 12, 12",
-        "weight": "5kg",
+        "weight": "10kg",
       },
       {
         "name": "pohje laitteessa",
         "repeats": "12, 12, 12",
-        "weight": "25kg",
+        "weight": "27.5kg",
       },
       {
         "name": "pohje pressissä",
         "repeats": "12, 12, 12",
-        "weight": "70kg",
+        "weight": "80kg",
       },
     ];
+    */
     /*
     let exercises = [
         {
