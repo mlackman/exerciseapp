@@ -3,7 +3,7 @@
         {
             "name": "Penkkipunnerrus",
             "repeats": "12, 12, 12",
-            "weight": "45kg", "45kg", "45kg",
+            "weight": "45kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
