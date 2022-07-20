@@ -1,4 +1,5 @@
 <script>
+    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -13,7 +14,7 @@
         {
             "name": "Vipunostot rinta",
             "repeats": "12, 12, 12",
-            "weight": "12.5kg, 10kg, 10kg",
+            "weight": "10kg, 10kg, 10kg",
         },
         {
             "name": "Pullover käsipainolla (rinta)",
@@ -23,7 +24,7 @@
         {
             "name": "Pystypunnerus painoilla",
             "repeats": "12, 12, 12",
-            "weight": "12.5 kg",
+            "weight": "10 kg",
         },
         {
             "name": "vipunostot sivulle/eteen",
@@ -31,13 +32,13 @@
             "weight": "6kg/4kg",
         },
       ]
+    */
 
-    /*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
-        "repeats": "12, 10, 12",
-        "weight": "47.5kg, 47.5kg, 47.5kg",
+        "repeats": "12, 12, 12",
+        "weight": "50kg",
       },
       {
         "name": "Pullover käsipainolla",
@@ -66,7 +67,6 @@
       },
 
     ];
-    */
     /*
     // Arms and abs
     let exercises = [
