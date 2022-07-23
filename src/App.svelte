@@ -34,6 +34,7 @@
       ]
     */
 
+  /*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
@@ -67,6 +68,7 @@
       },
 
     ];
+    */
     /*
     // Arms and abs
     let exercises = [
@@ -111,7 +113,6 @@
         "weight": "17.5kg",
       },
     ];
-    */
 
     /*
     let exercises = [
