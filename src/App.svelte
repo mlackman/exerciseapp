@@ -69,7 +69,6 @@
 
     ];
     */
-    /*
     // Arms and abs
     let exercises = [
       {
