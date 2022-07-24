@@ -69,6 +69,7 @@
 
     ];
     */
+    /*
     // Arms and abs
     let exercises = [
       {
@@ -112,18 +113,13 @@
         "weight": "17.5kg",
       },
     ];
+    */
 
-    /*
     let exercises = [
       {
         "name": "maastaveto",
         "repeats": "12, 10, 12",
         "weight": "70kg, 70kg, 70kg",
-      },
-      {
-        "name": "kyykky",
-        "repeats": "12, 12, 12",
-        "weight": "57.5kg",
       },
       {
         "name": "jalankoukistus",
@@ -134,6 +130,11 @@
         "name": "Jalkakyykky käsipainoilla",
         "repeats": "12, 12, 12",
         "weight": "15kg",
+      },
+      {
+        "name": "kyykky",
+        "repeats": "12, 12, 12",
+        "weight": "57.5kg",
       },
       {
         "name": "jalan suoristus",
@@ -156,7 +157,6 @@
         "weight": "80kg",
       },
     ];
-    */
     /*
     let exercises = [
         {
