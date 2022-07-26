@@ -1,10 +1,9 @@
 <script>
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "12, 12, 12",
-            "weight": "45kg",
+            "weight": "47.5kg",
         },
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
@@ -32,7 +31,6 @@
             "weight": "6kg/4kg",
         },
       ]
-    */
 
   /*
     let exercises = [
@@ -115,6 +113,7 @@
     ];
     */
 
+    /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -124,7 +123,7 @@
       {
         "name": "jalankoukistus",
         "repeats": "12, 10, 12",
-        "weight": "50kg",
+        "weight": "52.5kg",
       },
       {
         "name": "Jalkakyykky käsipainoilla",
@@ -154,9 +153,10 @@
       {
         "name": "pohje pressissä",
         "repeats": "12, 12, 12",
-        "weight": "80kg",
+        "weight": "100kg",
       },
     ];
+    */
     /*
     let exercises = [
         {
