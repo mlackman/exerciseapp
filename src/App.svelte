@@ -69,6 +69,7 @@
 
     ];
     */
+    /*
     // Arms and abs
     let exercises = [
       {
@@ -112,8 +113,8 @@
         "weight": "17.5kg",
       },
     ];
+    */
 
-    /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -156,7 +157,6 @@
         "weight": "100kg",
       },
     ];
-    */
     /*
     let exercises = [
         {
