@@ -1,5 +1,5 @@
 <script>
-/*
+  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -9,7 +9,7 @@
         {
             "name": "Vinopenkkipunnerrus tangolla (eteen)",
             "repeats": "12, 12, 12",
-            "weight": "30,0kg, 30,0kg, 30,0kg",
+            "weight": "35kg, 35kg, 35kg",
         },
         {
             "name": "Vipunostot rinta",
@@ -34,12 +34,11 @@
       ]
       */
 
-  /*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
         "repeats": "12, 12, 12",
-        "weight": "50kg",
+        "weight": "52,5kg",
       },
       {
         "name": "Pullover käsipainolla",
@@ -68,7 +67,6 @@
       },
 
     ];
-    */
     /*
     // Arms and abs
     let exercises = [
@@ -115,6 +113,7 @@
     ];
     */
 
+    /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -134,7 +133,7 @@
       {
         "name": "kyykky",
         "repeats": "12, 12, 12",
-        "weight": "57.5kg",
+        "weight": "55.0kg",
       },
       {
         "name": "jalan suoristus",
@@ -149,7 +148,7 @@
       {
         "name": "pohje laitteessa",
         "repeats": "12, 12, 12",
-        "weight": "27.5kg",
+        "weight": "30kg",
       },
       {
         "name": "pohje pressissä",
@@ -157,6 +156,7 @@
         "weight": "100kg",
       },
     ];
+    */
     /*
     let exercises = [
         {
