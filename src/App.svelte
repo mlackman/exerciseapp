@@ -69,6 +69,7 @@
 
     ];
     */
+    /*
     // Arms and abs
     let exercises = [
       {
@@ -79,7 +80,7 @@
       {
           "name": "Hauiskääntö levytangolla",
           "repeats": "12, 12, 12",
-          "weight": "25kg",
+          "weight": "30kg",
       },
       {
         "name": "vatsalihakset",
@@ -94,12 +95,12 @@
       {
         "name": "Hauis kp seisten",
         "repeats": "12, 12, 12",
-        "weight": "10kg",
+        "weight": "12.6kg",
       },
       {
         "name": "vatsalihakset koneessa (crunch)",
         "repeats": "12, 12, 12",
-        "weight": "45kg",
+        "weight": "49kg",
       },
       {
         "name": "Ojentaja taljassa",
@@ -112,8 +113,8 @@
         "weight": "17.5kg",
       },
     ];
+    */
 
-    /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -156,7 +157,6 @@
         "weight": "100kg",
       },
     ];
-    */
     /*
     let exercises = [
         {
