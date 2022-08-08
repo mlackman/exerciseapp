@@ -1,5 +1,4 @@
 <script>
-  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -32,7 +31,6 @@
             "weight": "7kg/5kg",
         },
       ]
-      */
 
 /*
     let exercises = [
@@ -115,6 +113,7 @@
     ];
     */
 
+/*
     let exercises = [
       {
         "name": "maastaveto",
@@ -154,9 +153,10 @@
       {
         "name": "pohje pressissä",
         "repeats": "12, 12, 12",
-        "weight": "100kg",
+        "weight": "130kg",
       },
     ];
+    */
     /*
     let exercises = [
         {
