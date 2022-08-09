@@ -1,4 +1,5 @@
 <script>
+  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -31,13 +32,13 @@
             "weight": "7kg/5kg",
         },
       ]
+      */
 
-/*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
         "repeats": "12, 12, 12",
-        "weight": "52,5kg",
+        "weight": "55kg",
       },
       {
         "name": "Pullover käsipainolla",
@@ -52,7 +53,7 @@
       {
         "name": "Käänteiset flyes kp",
         "repeats": "12, 12, 12",
-        "weight": "6kg, 6kg, 6kg",
+        "weight": "7kg, 7kg, 7kg",
       },
       {
         "name": "facepull taljassa",
@@ -62,11 +63,10 @@
       {
         "name": "Olan kohautukset",
         "repeats": "12, 12, 12",
-        "weight": "20kg, 20kg, 20kg",
+        "weight": "22.5kg",
       },
 
     ];
-    */
     /*
     // Arms and abs
     let exercises = [
