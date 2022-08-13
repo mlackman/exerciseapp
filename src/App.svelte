@@ -34,6 +34,7 @@
       ]
       */
 
+/*
     let exercises = [
       {
         "name": "kulmasoutu tangolla",
@@ -111,7 +112,6 @@
         "weight": "17.5kg",
       },
     ];
-    */
 
 /*
     let exercises = [
