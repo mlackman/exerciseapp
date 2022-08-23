@@ -1,4 +1,43 @@
 <script>
+    let exercises = [
+        {
+            "name": "Penkkipunnerrus",
+            "repeats": "8, 8, 8, 8",
+            "weight": "50kg",
+        },
+        {
+          "name": "ylätalja",
+          "repeats": "8, 8, 8",
+          "weight": "47.5kg",
+        },
+        {
+            "name": "Vipunostot rinta",
+            "repeats": "8, 8, 8",
+            "weight": "12kg, 12kg, 12kg",
+        },
+        {
+            "name": "Pystypunnerus painoilla",
+            "repeats": "8, 8, 8",
+            "weight": "12 kg",
+        },
+        {
+          "name": "Käänteiset flyes kp",
+          "repeats": "8, 8, 8",
+          "weight": "10kg",
+        },
+        {
+          "name": "vatsalihakset",
+          "repeats": "12, 12, 12",
+          "weight": "0kg",
+        },
+        {
+            "name": "vipunostot sivulle/eteen",
+            "repeats": "12, 12, 12",
+            "weight": "7kg/5kg",
+        },
+
+
+      ]
   /*
     let exercises = [
         {
@@ -115,6 +154,7 @@
     ];
     */
 
+/*
     let exercises = [
       {
         "name": "maastaveto",
@@ -157,6 +197,7 @@
         "weight": "130kg",
       },
     ];
+    */
     /*
     let exercises = [
         {
