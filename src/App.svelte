@@ -1,6 +1,5 @@
 <script>
 
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -40,7 +39,6 @@
 
 
       ]
-      */
 
     /*
     let exercises = [
@@ -84,59 +82,60 @@
     ];
     */
 
+    /*
     let exercises = [
         {
           "name": "pystypunnerrus",
           "repeats": "8, 8, 8",
-          "weight": "30kg",
+          "weight": "30, 40kg, 35kg",
         },
         {
           "name": "kulmasoutu tangolla",
           "repeats": "8, 8, 8",
-          "weight": "55kg",
+          "weight": "50kg, 55kg, 57,5.kg",
         },
         {
           "name": "Vinopenkkipunnerrus tangolla (eteen)",
           "repeats": "8, 8, 8",
-          "weight": "40kg, 40kg, 40kg",
+          "weight": "40kg, 45kg, 40kg",
         },
         {
           "name": "pystysoutu tangolla",
           "repeats": "3 x 8",
-          "weight": "24 kg",
+          "weight": "2.5 kg",
         },
         {
           "name": "Kapea ote selkä vetolaiteessa",
           "repeats": "3 x 8",
-            "weight": "24 kg",
+            "weight": "40kg",
         },
         {
           "name": "Penkki painoilla",
           "repeats": "3 x 8",
-            "weight": "24 kg",
+            "weight": "15, 17.5, 20 kg",
         },
         {
           "name": "vipunostot sivulle etunojassa",
           "repeats": "3 x 8",
-          "weight": "7kg",
+          "weight": "6kg",
         },
         {
           "name": "Kohautukset käsipainolla",
           "repeats": "3 x 8",
-            "weight": "24 kg",
+            "weight": "25 kg",
         },
         {
           "name": "Vipunostot rinta",
           "repeats": "8, 8, 8",
-          "weight": "12.5kg",
+          "weight": "15kg",
         },
         {
           "name": "vatsalihakset koneessa (crunch)",
           "repeats": "3 x 8",
-          "weight": "49kg",
+          "weight": "54kg",
         },
-
       ]
+      */
   /*
     let exercises = [
         {
