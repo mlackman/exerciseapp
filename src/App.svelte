@@ -1,10 +1,11 @@
 <script>
 
+/*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "8, 8, 8, 8",
-            "weight": "50kg. 52.5, 55.5, 57,5",
+            "weight": "50, 55, 60, 50",
         },
         {
           "name": "ylätalja",
@@ -19,7 +20,7 @@
         {
             "name": "Pystypunnerus painoilla",
             "repeats": "8, 8, 8",
-            "weight": "12 kg",
+            "weight": "15 kg",
         },
         {
           "name": "Käänteiset flyes kp",
@@ -40,7 +41,7 @@
 
       ]
 
-    /*
+*/
     let exercises = [
       {
         "name": "maastaveto",
@@ -80,7 +81,6 @@
 
 
     ];
-    */
 
     /*
     let exercises = [
