@@ -1,6 +1,5 @@
 <script>
 
-    /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -40,8 +39,8 @@
 
 
       ]
-      */
 
+    /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -56,12 +55,12 @@
       {
           "name": "Hauiskääntö levytangolla",
           "repeats": "8, 8, 8",
-          "weight": "35kg",
+          "weight": "25kg",
       },
       {
         "name": "jalankoukistus",
         "repeats": "8,8,8",
-        "weight": "57.5kg",
+        "weight": "60kg",
       },
       {
         "name": "Ojentaja taljassa",
@@ -81,6 +80,7 @@
 
 
     ];
+    */
 /*
     let exercises = [
         {
