@@ -81,6 +81,7 @@
 
     ];
     */
+    /*
     let exercises = [
         {
           "name": "pystypunnerrus",
@@ -133,6 +134,52 @@
           "weight": "54kg",
         },
       ]
+      */
+    let exercises = [
+      {
+        "name": "maastaveto",
+        "repeats": "8, 8, 8",
+        "weight": "80kg",
+      },
+      {
+        "name": "Ojentaja kapea ote",
+        "repeats": "8, 8, 8",
+        "weight": "40kg",
+      },
+      {
+          "name": "leuanveto",
+          "repeats": "n",
+          "weight": "0kg",
+      },
+      {
+        "name": "jalankoukistus",
+        "repeats": "8,8,8",
+        "weight": "60kg",
+      },
+      {
+        "name": "Ojentaja taljassa",
+        "repeats": "8, 8, 8",
+        "weight": "25kg",
+      },
+      {
+        "name": "Hauis tanko",
+        "repeats": "8, 8, 8",
+        "weight": "25kg",
+      },
+      {
+        "name": "Suorinjaloin maastaveto",
+          "repeats": "3 x 10 - 15",
+          "weight": "50kg",
+      },
+      {
+        "name": "pohje pressissä",
+        "repeats": "8, 8, 8",
+        "weight": "135kg",
+      },
+
+
+    ];
+
   /*
     let exercises = [
         {
