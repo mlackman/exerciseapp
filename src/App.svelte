@@ -1,20 +1,19 @@
 <script>
-/*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
             "repeats": "8, 8, 8, 8",
-            "weight": "50, 55, 60, 50",
+            "weight": "50, 60, 65, 60",
         },
         {
           "name": "ylätalja",
           "repeats": "8, 8, 8",
-          "weight": "52.5kg",
+          "weight": "55kg",
         },
         {
             "name": "Vipu rinta laite",
             "repeats": "8, 8, 8",
-            "weight": "49kg, 49kg, 49kg",
+            "weight": "49kg+, 49kg, 49kg",
         },
         {
             "name": "Pystypunnerus painoilla",
@@ -39,7 +38,6 @@
 
 
       ]
-      */
 /*
     let exercises = [
       {
@@ -135,11 +133,12 @@
         },
       ]
       */
+      /*
     let exercises = [
       {
         "name": "maastaveto",
         "repeats": "8, 8, 8",
-        "weight": "80kg",
+        "weight": "85kg",
       },
       {
         "name": "Ojentaja kapea ote",
@@ -179,6 +178,7 @@
 
 
     ];
+    */
 
   /*
     let exercises = [
