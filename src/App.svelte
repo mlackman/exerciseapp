@@ -38,6 +38,7 @@
         },
       ]
       */
+      /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -75,7 +76,8 @@
         "weight": "35kg",
       },
     ];
-    /*
+      */
+      /*
     let exercises = [
         {
           "name": "pystypunnerrus",
@@ -129,12 +131,11 @@
         },
       ]
       */
-      /*
     let exercises = [
       {
-        "name": "maastaveto",
+        "name": "kyykky",
         "repeats": "8, 8, 8",
-        "weight": "85kg",
+        "weight": "75",
       },
       {
         "name": "Ojentaja kapea ote",
@@ -147,7 +148,7 @@
           "weight": "0kg",
       },
       {
-        "name": "jalankoukistus",
+        "name": "jalansuoristus",
         "repeats": "8,8,8",
         "weight": "60kg",
       },
@@ -174,7 +175,6 @@
 
 
     ];
-    */
 
   /*
     let exercises = [
