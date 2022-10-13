@@ -1,4 +1,5 @@
 <script>
+  /*
     let exercises = [
         {
             "name": "Penkkipunnerrus",
@@ -10,6 +11,8 @@
           "repeats": "8, 8, 8",
           "weight": "55kg",
         },
+
+        Latpull
         {
             "name": "Vipu rinta laite",
             "repeats": "8, 8, 8",
@@ -36,7 +39,7 @@
             "weight": "9kg/6kg",
         },
       ]
-      /*
+      */
     let exercises = [
       {
         "name": "maastaveto",
@@ -74,7 +77,6 @@
         "weight": "35kg",
       },
     ];
-    */
       /*
     let exercises = [
         {
