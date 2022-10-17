@@ -128,7 +128,6 @@
           "weight": "54kg",
         },
       ]
-      */
       /*
     let exercises = [
       {
