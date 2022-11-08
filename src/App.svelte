@@ -38,7 +38,6 @@
         },
       ]
       */
-    /*
     let exercises = [
       {
         "name": "maastaveto",
@@ -76,7 +75,6 @@
         "weight": "35kg",
       },
     ];
-*/
 
   /*
     let exercises = [
@@ -132,6 +130,7 @@
         },
       ]
       */
+      /*
     let exercises = [
       {
         "name": "kyykky",
@@ -176,6 +175,7 @@
 
 
     ];
+    */
 
   /*
     let exercises = [
