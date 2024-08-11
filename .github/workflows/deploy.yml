@@ -18,13 +18,18 @@ jobs:
         aws-region: eu-west-1
 
     - name: Install node
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
 
     - name: Install app
+      working-directory: ./Gym
       run: npm install
 
     - name: Build
+      working-directory: ./Gym
       run: npm run build
 
     - name: Copy files to s3
-      run: aws s3 sync public s3://mobile.treenan.net
+      working-directory: ./Gym
+      run: aws s3 sync dist s3://mobile.treenan.net
