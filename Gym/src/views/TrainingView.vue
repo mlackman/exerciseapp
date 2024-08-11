@@ -1,18 +1,47 @@
 <script setup lang="ts">
 
+  type Weight = {
+    amount: number;
+    unit: string;
+  };
+
+  type Repeats = {
+    min: number;
+    max: number;
+  }
+
+  type Training = {
+    name: string;
+    serie: string;
+    weight: Weight;
+    repeats: Repeats;
+  };
+
+  const training: Training = {
+    name: 'Penkki',
+    serie: '1/5',
+    weight: {
+      amount: 50,
+      unit: 'kg',
+    },
+    repeats: {
+      min: 8,
+      max: 12,
+    },
+  };
 </script>
 
 <template>
   <main>
-    <h1>Penkki 1/5</h1>
+    <h1>{{training.name}} {{training.serie}}</h1>
 
-    <h2>50 kg</h2>
+    <h2>{{training.weight.amount}} {{training.weight.unit}}</h2>
 
     <section>
-      <h3>Toistot</h3>
+      <h3>Toistot {{training.repeats.min}} - {{training.repeats.max}}</h3>
       <div class="container">
         <button class="repeat-btn"><</button>
-        <p>8</p>
+        <p>{{training.repeats.min}}</p>
         <button class="repeat-btn">></button>
       </div>
     </section>
@@ -32,6 +61,10 @@
   h2 {
     font-size: 20vw;
     text-align: center;
+  }
+
+  h3 {
+    font-size: 10vw;
   }
 
   .container{
