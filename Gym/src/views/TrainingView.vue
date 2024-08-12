@@ -1,34 +1,10 @@
+
 <script setup lang="ts">
+  import { useProgramStore } from '../stores/program';
 
-  type Weight = {
-    amount: number;
-    unit: string;
-  };
+  const training = useProgramStore();
 
-  type Repeats = {
-    min: number;
-    max: number;
-  }
 
-  type Training = {
-    name: string;
-    serie: string;
-    weight: Weight;
-    repeats: Repeats;
-  };
-
-  const training: Training = {
-    name: 'Penkki',
-    serie: '1/5',
-    weight: {
-      amount: 50,
-      unit: 'kg',
-    },
-    repeats: {
-      min: 8,
-      max: 12,
-    },
-  };
 </script>
 
 <template>
