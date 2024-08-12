@@ -1,5 +1,26 @@
 import { defineStore } from 'pinia'
 
+type Workout = {
+  name: string;
+  exercises: Exercise[];
+}
+
+type Exercise = {
+  name: string;
+  sets: (ExerciseSet | Rest)[]
+}
+
+export type ExerciseSet = {
+  name: string;
+  repeats: Repeats;
+  weight: Weight;
+}
+
+type Rest = {
+  min: number; // seconds
+  max: number;
+}
+
 type Weight = {
   amount: number;
   unit: string;
@@ -10,26 +31,23 @@ type Repeats = {
   max: number;
 }
 
-type Training = {
-  name: string;
-  serie: string;
-  weight: Weight;
-  repeats: Repeats;
-};
-
-
 export const useProgramStore = defineStore('program', () => {
-  const training: Training = {
-    name: 'Penkki',
-    serie: '1/5',
-    weight: {
-      amount: 55,
-      unit: 'kg',
-    },
-    repeats: {
-      min: 8,
-      max: 12,
-    },
+  const workout: Workout = {
+    name: 'Push day',
+    exercises: [
+      {
+        name: 'Tricep Pushdown',
+        sets: [
+          {
+            name: 'Tricep Pushdown',
+            repeats: { min: 8, max: 12 },
+            weight: { amount: 22.5, unit: 'kg' },
+          },
+          { min: 60, max: 120 }
+        ],
+      }
+    ],
   };
-  return training;
+  return workout;
+
 })

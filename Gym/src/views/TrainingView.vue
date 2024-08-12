@@ -1,24 +1,28 @@
 
 <script setup lang="ts">
   import { useProgramStore } from '../stores/program';
+  import type { ExerciseSet } from '../stores/program';
 
-  const training = useProgramStore();
+  const workout = useProgramStore();
+
+  const exercise = workout.exercises[0];
+  const currentSet = exercise.sets[0] as ExerciseSet;
 
 
 </script>
 
 <template>
   <main>
-    <h1>{{training.name}} {{training.serie}}</h1>
+    <h1>{{exercise.name}} 1/{{exercise.sets.length}}</h1>
 
-    <h2>{{training.weight.amount}} {{training.weight.unit}}</h2>
+    <h2>{{currentSet.weight.amount}} {{currentSet.weight.unit}}</h2>
 
     <section>
       <h3>Toistot </h3>
-      <p>{{training.repeats.min}} - {{training.repeats.max}}</p>
+      <p>{{currentSet.repeats.min}} - {{currentSet.repeats.max}}</p>
       <div class="container">
         <button class="repeat-btn"><</button>
-        <p>{{training.repeats.min}}</p>
+        <p>{{currentSet.repeats.min}}</p>
         <button class="repeat-btn">></button>
       </div>
     </section>
